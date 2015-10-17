@@ -43,21 +43,25 @@ sub search_bandcamp {
            /"$+{title} by $+{artist}"/x;
 
     my $search = 'google.com/search?q=site:bandcamp.com%2Falbum+'.$q;
-    my $res    = $self->ua->get($search)->res;
+    my $res    = $self->ua->get($search => sub {
+        my ($ua, $mojo) = @_;
 
-    # Return if no results (search results appear at h3 level...)
-    unless ($res->dom->find('h3 > a')->first) {
-        return $self->render(json => { 'no_results' => 1 });
-    }
+        # Return if no results (search results appear at h3 level...)
+        unless ($mojo->res->dom->find('h3 > a')->first) {
+            return $self->render(json => { 'no_results' => 1 });
+        }
 
-    my $title = $res->dom->find('h3 > a')->first->all_text;
-    my $link  = $res->dom->find('cite')->first->all_text;
-    # Remove all spaces from search link, caused by google adding the
-    # <b>...</b> html tags when a search parameter matches the url, and
-    # all_text() not being aware of the continuity.
-    $link =~ s/\s//g;
+        my $title = $mojo->res->dom->find('h3 > a')->first->all_text;
+        my $link  = $mojo->res->dom->find('cite')->first->all_text;
+        # Remove all spaces from search link, caused by google adding the
+        # <b>...</b> html tags when a search parameter matches the url, and
+        # all_text() not being aware of the continuity.
+        $link =~ s/\s//g;
 
-    $self->render(json => { "title" => $title, "link" => $link });
+        $self->render(json => { "title" => $title, "link" => $link });
+    });
+
+    $self->render_later;
 }
 
 1;
