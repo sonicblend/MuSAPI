@@ -8,9 +8,13 @@ sub search_deezer {
     # replace characters deezer doesn't like
     $q =~ s/–/-/g;
 
-    my $message = $self->ua->get('http://api.deezer.com/search/album?q='.$q)->res->json;
+    # non-blocking request to get json for album
+    my $message = $self->ua->get('http://api.deezer.com/search/album?q='.$q => sub {
+        my ($ua, $mojo) = @_;
+        $self->render(json => $mojo->res->json);
+    });
 
-    $self->render(json => $message);
+    $self->render_later;
 }
 
 1;
