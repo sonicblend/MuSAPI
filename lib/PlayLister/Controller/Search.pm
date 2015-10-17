@@ -8,8 +8,7 @@ sub search_deezer {
     # replace characters deezer doesn't like
     $q =~ s/–/-/g;
 
-    my $ua = Mojo::UserAgent->new;
-    my $message = $ua->get('http://api.deezer.com/search/album?q='.$q)->res->json;
+    my $message = $self->ua->get('http://api.deezer.com/search/album?q='.$q)->res->json;
 
     $self->render(json => $message);
 }
