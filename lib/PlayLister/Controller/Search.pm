@@ -9,7 +9,7 @@ sub search_deezer {
     $q =~ s/–/-/g;
 
     # non-blocking request to get json for album
-    my $message = $self->redis('http://api.deezer.com/search/album?q='.$q => sub {
+    my $message = $self->cache('http://api.deezer.com/search/album?q='.$q => sub {
         my ($ua, $mojo) = @_;
         $self->render(json => $mojo->res->json);
     });
@@ -43,7 +43,7 @@ sub search_bandcamp {
            /"$+{title} by $+{artist}"/x;
 
     my $search = 'google.com/search?q=site:bandcamp.com%2Falbum+'.$q;
-    my $res    = $self->redis($search => sub {
+    my $res    = $self->cache($search => sub {
         my ($ua, $mojo) = @_;
 
         # Return if no results (search results appear at h3 level...)
