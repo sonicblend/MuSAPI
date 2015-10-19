@@ -1,5 +1,6 @@
 package MuSAPI::Controller::Search;
 use Mojo::Base 'Mojolicious::Controller';
+use PlayLister::Model::Release;
 
 sub search_deezer {
     my $self = shift;
@@ -11,7 +12,18 @@ sub search_deezer {
     # non-blocking request to get json for album
     my $message = $self->cache('http://api.deezer.com/search/album?q='.$q => sub {
         my ($ua, $mojo) = @_;
-        $self->render(json => $mojo->res->json);
+
+        if ($mojo->res->json->{total} > 0) {
+            my $release = PlayLister::Model::Release->new(
+                artist => $mojo->res->json->{data}[0]{artist}{name},
+                title  => $mojo->res->json->{data}[0]{title},
+                link   => $mojo->res->json->{data}[0]{link},
+            );
+
+            return $self->render(json => $release->to_json);
+        }
+
+        return $self->render(json => { not_found => 1 });
     });
 
     $self->render_later;
@@ -48,7 +60,7 @@ sub search_bandcamp {
 
         # Return if no results (search results appear at h3 level...)
         unless ($mojo->res->dom->find('h3 > a')->first) {
-            return $self->render(json => { 'no_results' => 1 });
+            return $self->render(json => { not_found => 1 });
         }
 
         my $title = $mojo->res->dom->find('h3 > a')->first->all_text;
@@ -58,7 +70,14 @@ sub search_bandcamp {
         # all_text() not being aware of the continuity.
         $link =~ s/\s//g;
 
-        $self->render(json => { "title" => $title, "link" => $link });
+        # TODO: go to bandcamp page for artist and title, as sometimes only
+        # the release title and record label are available from google
+        my $release = PlayLister::Model::Release->new(
+            title  => $title,
+            link   => $link,
+        );
+
+        return $self->render(json => $release->to_json);
     });
 
     $self->render_later;
