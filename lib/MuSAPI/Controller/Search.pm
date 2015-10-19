@@ -1,6 +1,6 @@
 package MuSAPI::Controller::Search;
 use Mojo::Base 'Mojolicious::Controller';
-use PlayLister::Model::Release;
+use MuSAPI::Model::Release;
 
 sub search_deezer {
     my $self = shift;
@@ -14,7 +14,7 @@ sub search_deezer {
         my ($ua, $mojo) = @_;
 
         if ($mojo->res->json->{total} > 0) {
-            my $release = PlayLister::Model::Release->new(
+            my $release = MuSAPI::Model::Release->new(
                 artist => $mojo->res->json->{data}[0]{artist}{name},
                 title  => $mojo->res->json->{data}[0]{title},
                 link   => $mojo->res->json->{data}[0]{link},
@@ -72,7 +72,7 @@ sub search_bandcamp {
 
         # TODO: go to bandcamp page for artist and title, as sometimes only
         # the release title and record label are available from google
-        my $release = PlayLister::Model::Release->new(
+        my $release = MuSAPI::Model::Release->new(
             title  => $title,
             link   => $link,
         );

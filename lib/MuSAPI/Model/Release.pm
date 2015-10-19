@@ -1,4 +1,4 @@
-package PlayLister::Model::Release;
+package MuSAPI::Model::Release;
 
 use Moose;
 use namespace::autoclean;
