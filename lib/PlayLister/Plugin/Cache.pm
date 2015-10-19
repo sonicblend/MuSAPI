@@ -3,6 +3,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 
 use Moose;
 use Mojo::Redis2;
+use namespace::autoclean;
 
 # Mojo::Redis2->new() is not called unless lay arg is specified, unsure why?
 has 'cache' => (is => 'ro', isa => 'Mojo::Redis2', default => sub { Mojo::Redis2->new; }, lazy => 1);
@@ -39,7 +40,7 @@ sub redis {
         sub {
             my ($delay, $err, $message) = @_;
 
-            # found key in redis
+            # found key in cache
             if ($message) {
                 warn "B1. got a key from redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
 
@@ -52,10 +53,12 @@ sub redis {
                 return $cb->($c->ua, $tx);
             }
 
+            # key not previously cached, search for it
             warn "B2. no key found in redis - search. steps remaining (", scalar @{$delay->remaining}, ")\n";
             $c->ua->get($query => sub {
                 my ($ua, $mojo) = @_;
 
+                # save key-value in cache
                 warn "B3. response fetched. steps remaining (", scalar @{$delay->remaining}, ")\n";
                 $c->delay(
                     sub {
@@ -75,5 +78,10 @@ sub redis {
         },
     );
 }
+
+## TODO: As Mojolicious::Plugin is being extended, which defines a class
+# constructor - Moose cannot inline it's constructor, and make_immutable
+# complains.
+#__PACKAGE__->meta->make_immutable;
 
 1;
