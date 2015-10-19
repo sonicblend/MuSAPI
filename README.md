@@ -5,7 +5,7 @@ It's difficult to find quality previews of music, particularly around release da
 
 Currently Deezer and Bandcamp are implemented.
 
-<code>GET /search/deezer/artist - title</code>
+<code>GET /search/deezer/quanta - connecting patterns</code>
 
 ```json
 {
@@ -38,5 +38,5 @@ The above serves a website at 127.0.0.1:3000
 Alternately MuSAPI can be run on the command-line:
 
 ```
-perl script/musapi get '/search/bandcamp/quanta - connecting patterns'
+perl script/musapi get '/search/bandcamp/liquid stranger - the intergalactic slapstick'
 ```
