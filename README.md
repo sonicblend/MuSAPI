@@ -5,16 +5,23 @@ It's difficult to find quality previews of music, particularly around release da
 
 Currently Deezer and Bandcamp are implemented.
 
-<code>GET /search/bandcamp/liquid stranger - the intergalactic slapstick</code>
-
-```json
-{"link":"https:\/\/liquidstranger.bandcamp.com\/album\/the-intergalactic-slapstick","title":"The Intergalactic Slapstick | Liquid Stranger"}
-```
-
 <code>GET /search/deezer/artist - title</code>
 
 ```json
-{"title":"Connecting Patterns | Quanta","link":"https:\/\/quanta-dub.bandcamp.com\/album\/connecting-patterns"}
+{
+    "artist": "QUANTA",
+    "link": "http:\/\/www.deezer.com\/album\/9547378",
+    "title": "Connecting Patterns"
+}
+```
+
+<code>GET /search/bandcamp/liquid stranger - the intergalactic slapstick</code>
+
+```json
+{
+    "link": "https:\/\/liquidstranger.bandcamp.com\/album\/the-intergalactic-slapstick",
+    "title": "The Intergalactic Slapstick | Liquid Stranger"
+}
 ```
 
 ## To install and run
@@ -26,7 +33,9 @@ cpanm --installdeps .
 perl script/musapi daemon
 ```
 
-Or on the command-line:
+The above serves a website at 127.0.0.1:3000
+
+Alternately MuSAPI can be run on the command-line:
 
 ```
 perl script/musapi get '/search/bandcamp/quanta - connecting patterns'
