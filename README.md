@@ -1,21 +1,33 @@
 # MuSAPI
 Music Search API (alpha)
 
-It's difficult to find quality previews of music, particularly around release date. MuSAPI aims to simplify searching multiple sources through a standard RESTful search interface.
+It's difficult to find quality previews of music, particularly around release date. MuSAPI aims to simplify searching multiple sources through a standard RESTful search interface, and return results in a standardised JSON format.
 
-### Bandcamp
-<code>GET /search/bandcamp/artist - title</code>
-### Deezer
+Currently Deezer and Bandcamp are implemented.
+
+<code>GET /search/bandcamp/liquid stranger - the intergalactic slapstick</code>
+
+```json
+{"link":"https:\/\/liquidstranger.bandcamp.com\/album\/the-intergalactic-slapstick","title":"The Intergalactic Slapstick | Liquid Stranger"}
+```
+
 <code>GET /search/deezer/artist - title</code>
 
-Where <code>artist - title</code> is the query string.
-
-At the moment search results aren't standardised.
+```json
+{"title":"Connecting Patterns | Quanta","link":"https:\/\/quanta-dub.bandcamp.com\/album\/connecting-patterns"}
+```
 
 ## To install and run
 
 Tested using perl 5.22.0, redis 3.05 and cpanm:
 
-<code>cpanm --installdeps .
+```
+cpanm --installdeps .
+perl script/musapi daemon
+```
 
-perl script/musapi daemon</code>
+Or on the command-line:
+
+```
+perl script/musapi get '/search/bandcamp/quanta - connecting patterns'
+```
