@@ -70,8 +70,6 @@ sub search_bandcamp {
         # all_text() not being aware of the continuity.
         $link =~ s/\s//g;
 
-        # TODO: go to bandcamp page for artist and title, as sometimes only
-        # the release title and record label are available from google
         my $release = MuSAPI::Model::Release->new(
             title  => $title,
             link   => $link,
