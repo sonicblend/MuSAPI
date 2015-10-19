@@ -1,4 +1,4 @@
-package PlayLister::Plugin::Cache;
+package MuSAPI::Plugin::Cache;
 use Mojo::Base 'Mojolicious::Plugin';
 
 use Moose;

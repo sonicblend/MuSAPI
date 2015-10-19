@@ -1,4 +1,4 @@
-package PlayLister::Controller::Search;
+package MuSAPI::Controller::Search;
 use Mojo::Base 'Mojolicious::Controller';
 use PlayLister::Model::Release;
 
