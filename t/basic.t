@@ -3,7 +3,7 @@ use Mojo::Base -strict;
 use Test::More;
 use Test::Mojo;
 
-my $t = Test::Mojo->new('PlayLister');
+my $t = Test::Mojo->new('MuSAPI');
 $t->get_ok('/search/deezer/Aphex Twin – Syro')
   ->status_is(200)
   ->json_is('/total', 1) # expect a single result - if not, data may not match
