@@ -5,7 +5,6 @@ use Moose;
 use Mojo::Redis2;
 use namespace::autoclean;
 
-# Mojo::Redis2->new() is not called unless lay arg is specified, unsure why?
 has 'cache' => (is => 'ro', isa => 'Mojo::Redis2', default => sub { Mojo::Redis2->new; }, lazy => 1);
 
 sub register {
@@ -17,10 +16,6 @@ sub register {
 
     return;
 }
-
-# TODO: Handle failures gracefully
-# 1a. Redis DB away
-# 1b. $query parameter missing
 
 sub redis {
     my ($self, $c, $query, $cb) = @_;
@@ -79,9 +74,7 @@ sub redis {
     );
 }
 
-## TODO: As Mojolicious::Plugin is being extended, which defines a class
-# constructor - Moose cannot inline it's constructor, and make_immutable
-# complains.
-#__PACKAGE__->meta->make_immutable;
+# Moose constructor disabled, as Mojolicious::Plugin has a constructor
+__PACKAGE__->meta->make_immutable(inline_constructor => 0);
 
 1;
