@@ -6,6 +6,7 @@ use namespace::autoclean;
 has 'artist' => (is => 'ro', isa => 'Str', default => '');
 has 'title'  => (is => 'ro', isa => 'Str');
 has 'link'   => (is => 'ro', isa => 'Str');
+has 'id'     => (is => 'ro', isa => 'Str');
 
 sub to_json {
     my $self = shift;
@@ -14,6 +15,7 @@ sub to_json {
         artist => $self->artist,
         title  => $self->title,
         link   => $self->link,
+        id     => $self->id,
     };
 }
 

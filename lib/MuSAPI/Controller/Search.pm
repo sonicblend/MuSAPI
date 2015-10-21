@@ -10,7 +10,7 @@ sub search_deezer {
     $q =~ s/–/-/g;
 
     # non-blocking request to get json for album
-    my $message = $self->cache('http://api.deezer.com/search/album?q='.$q => sub {
+    $self->cache('http://api.deezer.com/search/album?q='.$q => sub {
         my ($ua, $mojo) = @_;
 
         if ($mojo->res->json->{total} > 0) {
@@ -18,6 +18,7 @@ sub search_deezer {
                 artist => $mojo->res->json->{data}[0]{artist}{name},
                 title  => $mojo->res->json->{data}[0]{title},
                 link   => $mojo->res->json->{data}[0]{link},
+                id     => $mojo->res->json->{data}[0]{id},
             );
 
             return $self->render(json => $release->to_json);
@@ -55,7 +56,7 @@ sub search_bandcamp {
            /"$+{title} by $+{artist}"/x;
 
     my $search = 'google.com/search?q=site:bandcamp.com%2Falbum+'.$q;
-    my $res    = $self->cache($search => sub {
+    $self->cache($search => sub {
         my ($ua, $mojo) = @_;
 
         # Return if no results (search results appear at h3 level...)
@@ -69,13 +70,28 @@ sub search_bandcamp {
         # <b>...</b> html tags when a search parameter matches the url, and
         # all_text() not being aware of the continuity.
         $link =~ s/\s//g;
+        # http is fine
+        $link =~ s/^https/http/;
 
-        my $release = MuSAPI::Model::Release->new(
-            title  => $title,
-            link   => $link,
-        );
+        # Scrape Bandcamp to get additional release details
+        $self->cache($link => sub {
+            my ($ua2, $mojo2) = @_;
 
-        return $self->render(json => $release->to_json);
+            # Release details are found within a javascript array
+            if ($mojo2->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
+                my $embedData = $1;
+                my $release = MuSAPI::Model::Release->new(
+                    artist => $embedData =~ /artist: "(.*?)",?/,
+                    title  => $embedData =~ /album_title: "(.*?)",?/,
+                    link   => $link,
+                    id     => $embedData =~ /tralbum_param:.*?value: (\d+),?/,
+                );
+                return $self->render(json => $release->to_json);
+            }
+
+            warn "Bandcamp page scrape fail";
+            return $self->render(json => { not_found => 1 });
+        });
     });
 
     $self->render_later;
