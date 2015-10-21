@@ -28,7 +28,7 @@ sub redis {
     $c->delay(
         sub {
             my ($delay) = @_;
-            warn "A. search redis for key: '$query'. steps remaining (", scalar @{$delay->remaining}, ")\n";
+#            warn "A. search redis for key: '$query'. steps remaining (", scalar @{$delay->remaining}, ")\n";
 
             $self->cache->get($query, $delay->begin);
         },
@@ -37,7 +37,8 @@ sub redis {
 
             # found key in cache
             if ($message) {
-                warn "B1. got a key from redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
+                warn "cache success: '$query'\n";
+#                warn "B1. got a key from redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
 
                 # fake a Mojo::Transaction::HTTP so the callback args match
                 # that of $self->ua->get()
@@ -49,23 +50,23 @@ sub redis {
             }
 
             # key not previously cached, search for it
-            warn "B2. no key found in redis - search. steps remaining (", scalar @{$delay->remaining}, ")\n";
+#            warn "B2. no key found in redis - search. steps remaining (", scalar @{$delay->remaining}, ")\n";
             $c->ua->get($query => sub {
                 my ($ua, $mojo) = @_;
 
                 # save key-value in cache
-                warn "B3. response fetched. steps remaining (", scalar @{$delay->remaining}, ")\n";
+#                warn "B3. response fetched. steps remaining (", scalar @{$delay->remaining}, ")\n";
                 $c->delay(
                     sub {
                         my ($delay) = @_;
 
-                        warn "C1. store response in redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
+#                        warn "C1. store response in redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
                         $self->cache->set($query => $mojo->res->body, $delay->begin);
                     },
                     sub {
                         my ($delay, $err, $message) = @_;
 
-                        warn "C2. callback. steps remaining (", scalar @{$delay->remaining}, ")\n";
+#                        warn "C2. callback. steps remaining (", scalar @{$delay->remaining}, ")\n";
                         return $cb->($ua, $mojo);
                     }
                 );
