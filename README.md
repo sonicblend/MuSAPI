@@ -10,7 +10,8 @@ Currently Deezer and Bandcamp are implemented.
 ```json
 {
     "artist": "QUANTA",
-    "link": "http:\/\/www.deezer.com\/album\/9547378",
+    "link": "http://www.deezer.com/album/9547378",
+    "id": 9547378,
     "title": "Connecting Patterns"
 }
 ```
@@ -19,8 +20,10 @@ Currently Deezer and Bandcamp are implemented.
 
 ```json
 {
-    "link": "https:\/\/liquidstranger.bandcamp.com\/album\/the-intergalactic-slapstick",
-    "title": "The Intergalactic Slapstick | Liquid Stranger"
+    "artist": "Liquid Stranger",
+    "id": "4283774662",
+    "title": "The Intergalactic Slapstick",
+    "link": "http://liquidstranger.bandcamp.com/album/the-intergalactic-slapstick"
 }
 ```
 
