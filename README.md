@@ -5,6 +5,26 @@ It's difficult to find quality previews of music, particularly around release da
 
 Currently Deezer and Bandcamp are implemented.
 
+<code>GET /search/Koan Sound - Forgotten Myths</code>
+
+```json
+{
+    "query": "Koan Sound - Forgotten Myths",
+    "bandcamp": {
+        "link": "http://koansound.bandcamp.com/album/forgotten-myths",
+        "title": "Forgotten Myths",
+        "artist": "KOAN Sound",
+        "id": "922192078"
+    },
+    "deezer": {
+        "id": 10716382,
+        "artist": "Koan Sound",
+        "title": "Forgotten Myths",
+        "link": "http://www.deezer.com/album/10716382"
+    }
+}
+```
+
 <code>GET /search/deezer/quanta - connecting patterns</code>
 
 ```json

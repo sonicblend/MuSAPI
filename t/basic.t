@@ -34,4 +34,16 @@ $t->get_ok('/search/bandcamp/The Cyclist - Hot House')
   ->json_is('/title',  'Hot House EP')
   ->json_is('/id',     '3302283349');
 
+$t->get_ok('/search/Koan Sound - Forgotten Myths')
+  ->status_is(200)
+  ->json_is('/query', 'Koan Sound - Forgotten Myths')
+  ->json_is('/deezer/title', 'Forgotten Myths')
+  ->json_is('/deezer/artist', 'Koan Sound')
+  ->json_is('/deezer/link', 'http://www.deezer.com/album/10716382')
+  ->json_is('/deezer/id', '10716382')
+  ->json_is('/bandcamp/title', 'Forgotten Myths')
+  ->json_is('/bandcamp/artist', 'KOAN Sound')
+  ->json_is('/bandcamp/link', 'http://koansound.bandcamp.com/album/forgotten-myths')
+  ->json_is('/bandcamp/id', '922192078')
+
 done_testing();
