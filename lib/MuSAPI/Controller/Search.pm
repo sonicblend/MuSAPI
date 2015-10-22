@@ -54,45 +54,64 @@ sub search_bandcamp {
             (?<title>.*)   # title
             $
            /"$+{title} by $+{artist}"/x;
-
     my $search = 'google.com/search?q=site:bandcamp.com%2Falbum+'.$q;
-    $self->cache($search => sub {
-        my ($ua, $mojo) = @_;
 
-        # Return if no results (search results appear at h3 level...)
-        unless ($mojo->res->dom->find('h3 > a')->first) {
-            return $self->render(json => { not_found => 1 });
-        }
+    # Perform these steps non-blocking
+    $self->delay(
 
-        my $title = $mojo->res->dom->find('h3 > a')->first->all_text;
-        my $link  = $mojo->res->dom->find('cite')->first->all_text;
-        # Remove all spaces from search link, caused by google adding the
-        # <b>...</b> html tags when a search parameter matches the url, and
-        # all_text() not being aware of the continuity.
-        $link =~ s/\s//g;
-        # http is fine
-        $link =~ s/^https/http/;
+        # Scrape Google to find Bandcamp page
+        sub {
+            my $delay = shift;
+            my $end   = $delay->begin();
+
+            $self->cache($search => sub {
+                my ($ua, $mojo) = @_;
+
+                # Return if no results (search results appear at h3 level...)
+                unless ($mojo->res->dom->find('h3 > a')->first) {
+                    return $self->render(json => { not_found => 1 });
+                }
+
+                my $title = $mojo->res->dom->find('h3 > a')->first->all_text;
+                my $link  = $mojo->res->dom->find('cite')->first->all_text;
+                # Remove all spaces from search link, caused by google adding the
+                # <b>...</b> html tags when a search parameter matches the url, and
+                # all_text() not being aware of the continuity.
+                $link =~ s/\s//g;
+                # http is fine
+                $link =~ s/^https/http/;
+
+                # pass to next step
+                $delay->pass($link);
+                $end->();
+            });
+        },
 
         # Scrape Bandcamp to get additional release details
-        $self->cache($link => sub {
-            my ($ua2, $mojo2) = @_;
+        sub {
+            my ($delay, $link) = @_;
 
-            # Release details are found within a javascript array
-            if ($mojo2->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
-                my $embedData = $1;
-                my $release = MuSAPI::Model::Release->new(
-                    artist => $embedData =~ /artist: "(.*?)",?/,
-                    title  => $embedData =~ /album_title: "(.*?)",?/,
-                    link   => $link,
-                    id     => $embedData =~ /tralbum_param:.*?value: (\d+),?/,
-                );
-                return $self->render(json => $release->to_json);
-            }
+            $self->cache($link => sub {
+                my ($ua, $mojo) = @_;
 
-            warn "Bandcamp page scrape fail";
-            return $self->render(json => { not_found => 1 });
-        });
-    });
+                # Release details are found within a javascript array
+                if (my ($data) = $mojo->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
+
+                    my $json = MuSAPI::Model::Release->new(
+                        artist => $data =~ /artist: "(.*?)",?/,
+                        title  => $data =~ /album_title: "(.*?)",?/,
+                        link   => $link,
+                        id     => $data =~ /tralbum_param:.*?value: (\d+),?/,
+                    )->to_json;
+
+                    return $self->render(json => $json);
+                }
+
+                warn "Bandcamp page scrape fail";
+                return $self->render(json => { not_found => 1 });
+            });
+        },
+    );
 
     $self->render_later;
 }
