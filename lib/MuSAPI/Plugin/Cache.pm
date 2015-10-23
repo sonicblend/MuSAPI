@@ -5,10 +5,14 @@ use Moose;
 use Mojo::Redis2;
 use namespace::autoclean;
 
-has 'cache' => (is => 'ro', isa => 'Mojo::Redis2', default => sub { Mojo::Redis2->new; }, lazy => 1);
+has 'cache' => (is => 'rw', isa => 'Mojo::Redis2');
 
 sub register {
     my ($self, $app) = @_;
+
+    $self->cache( Mojo::Redis2->new(
+        url => $app->config->{'redis_url'} || 'redis://localhost:6379'
+    ));
 
     # helper deliberatly called cache and not redis, should the need
     # arise to swap it out for another key-value store
