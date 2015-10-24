@@ -10,9 +10,8 @@ has 'cache' => (is => 'rw', isa => 'Mojo::Redis2');
 sub register {
     my ($self, $app) = @_;
 
-    $self->cache( Mojo::Redis2->new(
-        url => $app->config->{'redis_url'} || 'redis://localhost:6379'
-    ));
+    # use the MOJO_REDIS_URL environment variable, or defaults to port :6379
+    $self->cache(Mojo::Redis2->new());
 
     # helper deliberatly called cache and not redis, should the need
     # arise to swap it out for another key-value store

@@ -5,7 +5,6 @@ use Mojo::Base 'Mojolicious';
 sub startup {
     my $self = shift;
 
-    my $config = $self->plugin('Config', {file => 'musapi.conf'});
     # Add helper 'cache': wraps ua->get with a query to the cache first, to
     # reduce repeated traffic
     $self->plugin('MuSAPI::Plugin::Cache');
