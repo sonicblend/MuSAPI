@@ -5,7 +5,7 @@ It's difficult to find quality previews of music, particularly around release da
 
 Currently Deezer and Bandcamp are implemented.
 
-<code>GET /search/Koan Sound - Forgotten Myths</code>
+<code>GET /api/v1/album/?q=Koan Sound - Forgotten Myths</code>
 
 ```json
 {
@@ -25,7 +25,7 @@ Currently Deezer and Bandcamp are implemented.
 }
 ```
 
-<code>GET /search/deezer/quanta - connecting patterns</code>
+<code>GET /api/v1/album/?p=deezer&q=quanta - connecting patterns</code>
 
 ```json
 {
@@ -36,7 +36,7 @@ Currently Deezer and Bandcamp are implemented.
 }
 ```
 
-<code>GET /search/bandcamp/liquid stranger - the intergalactic slapstick</code>
+<code>GET /api/v1/album/?p=bandcamp&q=liquid stranger - the intergalactic slapstick</code>
 
 ```json
 {
@@ -61,5 +61,5 @@ The above serves a website at 127.0.0.1:3000
 Alternately MuSAPI can be run on the command-line:
 
 ```
-perl script/musapi get '/search/bandcamp/liquid stranger - the intergalactic slapstick'
+perl script/musapi get '/api/v1/album/?q=Koan Sound - Forgotten Myths'
 ```

@@ -17,9 +17,7 @@ sub startup {
     # Router
     my $r = $self->routes;
 
-    $r->get('/search/(:album)'         )->to('search#search_all');
-    $r->get('/search/deezer/(:album)'  )->to('search#search_deezer');
-    $r->get('/search/bandcamp/(:album)')->to('search#search_bandcamp');
+    $r->get('/api/v1/album/')->to('search#search');
 }
 
 1;

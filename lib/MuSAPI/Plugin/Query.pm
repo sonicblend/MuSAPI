@@ -21,6 +21,8 @@ sub register {
 sub query_deezer {
     my ($self, $c, $query, $cb) = @_;
 
+    warn "query: '$query'\n";
+
     # replace characters deezer doesn't like
     $query =~ s/–/-/g;
     $query = 'http://api.deezer.com/search/album?q='.$query;

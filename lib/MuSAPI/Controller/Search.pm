@@ -1,12 +1,27 @@
 package MuSAPI::Controller::Search;
 use Mojo::Base 'Mojolicious::Controller';
 
-sub search_all {
+sub search {
     my $self = shift;
+
+    my $query    = $self->param('q')
+        or return $self->reply->not_found;
+    my $provider = $self->param('p')
+        or return $self->search_all($query);
+
+    # limit search to a specific provider
+    return $self->search_deezer($query)   if $provider =~ m/^deezer$/i;
+    return $self->search_bandcamp($query) if $provider =~ m/^bandcamp$/i;
+
+    return $self->reply->exception("unsupported provider value: '$provider'");
+}
+
+sub search_all {
+    my ($self, $query) = @_;
 
     # json reference, concurrently populated by query handlers
     my $json = {
-        query => $self->param('album'),
+        query => $query,
     };
 
     my $delay = Mojo::IOLoop::Delay->new;
@@ -19,11 +34,11 @@ sub search_all {
     });
 
     # run queries concurrently
-    $self->query_deezer($self->param('album'), sub {
+    $self->query_deezer($query, sub {
         $json->{deezer} = shift;
         $one->();
     });
-    $self->query_bandcamp($self->param('album'), sub {
+    $self->query_bandcamp($query, sub {
         $json->{bandcamp} = shift;
         $two->();
     });
@@ -32,9 +47,9 @@ sub search_all {
 }
 
 sub search_deezer {
-    my $self = shift;
+    my ($self, $query) = @_;
 
-    $self->query_deezer($self->param('album'), sub {
+    $self->query_deezer($query, sub {
         return $self->render(json => shift);
     });
 
@@ -42,9 +57,9 @@ sub search_deezer {
 }
 
 sub search_bandcamp {
-    my $self = shift;
+    my ($self, $query) = @_;
 
-    $self->query_bandcamp($self->param('album'), sub {
+    $self->query_bandcamp($query, sub {
         return $self->render(json => shift);
     });
 
