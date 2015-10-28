@@ -44,6 +44,6 @@ $t->get_ok('/search/Koan Sound - Forgotten Myths')
   ->json_is('/bandcamp/title', 'Forgotten Myths')
   ->json_is('/bandcamp/artist', 'KOAN Sound')
   ->json_is('/bandcamp/link', 'http://koansound.bandcamp.com/album/forgotten-myths')
-  ->json_is('/bandcamp/id', '922192078')
+  ->json_is('/bandcamp/id', '922192078');
 
 done_testing();
