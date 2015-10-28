@@ -30,14 +30,20 @@ sub query_deezer {
         my ($ua, $mojo) = @_;
 
         if ($mojo->res->json->{total} > 0) {
-            my $release = MuSAPI::Model::Release->new(
-                artist => $mojo->res->json->{data}[0]{artist}{name},
-                title  => $mojo->res->json->{data}[0]{title},
-                link   => $mojo->res->json->{data}[0]{link},
-                id     => $mojo->res->json->{data}[0]{id},
-            );
 
-            return $cb->($release->to_json);
+            my @json;
+            foreach my $result ( @{ $mojo->res->json->{data} } ) {
+                push @json, MuSAPI::Model::Release->new(
+                    artist => $result->{artist}{name},
+                    title  => $result->{title},
+                    link   => $result->{link},
+                    id     => $result->{id},
+                )->to_json;
+            };
+
+            # return the first result only, the front-end isn't ready to
+            # support multiple results
+            return $cb->($json[0]);
         }
 
         return $cb->({ not_found => 1 });
