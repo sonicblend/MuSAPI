@@ -36,20 +36,13 @@ sub query_redis {
 
             # hit!
             if ($message) {
-                warn "cache hit for '$query'\n";
+                say "cache hit for '$query'";
 #                warn "2. cache hit - return with cached message\n";
-
-                # fake a Mojo::Transaction::HTTP so the callback args match
-                # that of $self->ua->get()
-                my $tx = Mojo::Transaction::HTTP->new;
-                $tx->res->code(200);
-                $tx->res->body($message);
-
-                return $cb->($c->ua, $tx);
+                return $cb->($c->ua, $self->_fake_transaction($message));
             }
 
             # miss
-            warn "cache missed for '$query'\n";
+            say "cache missed for '$query'";
 #            warn "2. cache missed. steps remaining (", scalar @{$delay->remaining}, ")\n";
             $delay->pass;
         },
@@ -73,16 +66,22 @@ sub query_redis {
             my ($delay, $message, $err) = @_;
 
 #            warn "5. return with message. steps remaining (", scalar @{$delay->remaining}, ")\n";
-
-            # fake a Mojo::Transaction::HTTP so the callback args match
-            # that of $self->ua->get()
-            my $tx = Mojo::Transaction::HTTP->new;
-            $tx->res->code(200);
-            $tx->res->body($message);
-
-            return $cb->($c->ua, $tx);
+            return $cb->($c->ua, $self->_fake_transaction($message));
         },
     );
+}
+
+# Fake a Mojo::Transaction::HTTP so that the callback can use the
+# Mojo::Message JSON / DOM inspection tools
+
+sub _fake_transaction {
+    my ($self, $message) = @_;
+
+    my $tx = Mojo::Transaction::HTTP->new;
+    $tx->res->code(200);
+    $tx->res->body($message);
+
+    return $tx;
 }
 
 1;
