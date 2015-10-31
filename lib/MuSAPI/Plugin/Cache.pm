@@ -38,7 +38,7 @@ sub query_redis {
             if ($message) {
                 say "cache hit for '$url'";
 #                warn "2. cache hit - return with cached message\n";
-                return $cb->($c->ua, $self->_fake_transaction($message));
+                return $cb->($self->_fake_transaction($message));
             }
 
             # miss
@@ -66,7 +66,7 @@ sub query_redis {
             my ($delay, $message, $err) = @_;
 
 #            warn "5. return with message. steps remaining (", scalar @{$delay->remaining}, ")\n";
-            return $cb->($c->ua, $self->_fake_transaction($message));
+            return $cb->($self->_fake_transaction($message));
         },
     );
 }

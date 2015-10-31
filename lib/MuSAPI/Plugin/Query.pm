@@ -35,7 +35,7 @@ sub query_deezer {
 
     # non-blocking request to get json for album
     $c->cache($query => sub {
-        my ($ua, $tx) = @_;
+        my ($tx) = @_;
 
         if ($tx->res->json->{total} > 0) {
 
@@ -89,7 +89,7 @@ sub query_bandcamp_scrape {
             my $end   = $delay->begin();
 
             $c->cache($query => sub {
-                my ($ua, $tx) = @_;
+                my ($tx) = @_;
 
                 # Return if no results (search results appear at h3 level...)
                 unless ($tx->res->dom->find('h3 > a')->first) {
@@ -115,7 +115,7 @@ sub query_bandcamp_scrape {
             my ($delay, $link) = @_;
 
             $c->cache($link => sub {
-                my ($ua, $tx) = @_;
+                my ($tx) = @_;
 
                 # Release details are found within a javascript array
                 if (my ($data) = $tx->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
@@ -173,7 +173,7 @@ sub query_bandcamp_cs {
              .'&q='.   url_escape(lc $query);
 
     $c->cache($url => sub {
-        my ($ua, $tx) = @_;
+        my ($tx) = @_;
 
         if ($tx->res->json and @{$tx->res->json->{items}}) {
             my $first = $tx->res->json->{items}[0];
