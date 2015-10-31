@@ -35,12 +35,12 @@ sub query_deezer {
 
     # non-blocking request to get json for album
     $c->cache($query => sub {
-        my ($ua, $mojo) = @_;
+        my ($ua, $tx) = @_;
 
-        if ($mojo->res->json->{total} > 0) {
+        if ($tx->res->json->{total} > 0) {
 
             my @json;
-            foreach my $result ( @{ $mojo->res->json->{data} } ) {
+            foreach my $result ( @{ $tx->res->json->{data} } ) {
                 push @json, {
                     artist => $result->{artist}{name},
                     title  => $result->{title},
@@ -89,15 +89,15 @@ sub query_bandcamp_scrape {
             my $end   = $delay->begin();
 
             $c->cache($query => sub {
-                my ($ua, $mojo) = @_;
+                my ($ua, $tx) = @_;
 
                 # Return if no results (search results appear at h3 level...)
-                unless ($mojo->res->dom->find('h3 > a')->first) {
+                unless ($tx->res->dom->find('h3 > a')->first) {
                     return $cb->({ not_found => 1 });
                 }
 
-                my $title = $mojo->res->dom->find('h3 > a')->first->all_text;
-                my $link  = $mojo->res->dom->find('cite')->first->all_text;
+                my $title = $tx->res->dom->find('h3 > a')->first->all_text;
+                my $link  = $tx->res->dom->find('cite')->first->all_text;
                 # Remove all spaces from search link, caused by google adding the
                 # <b>...</b> html tags when a search parameter matches the url, and
                 # all_text() not being aware of the continuity.
@@ -115,10 +115,10 @@ sub query_bandcamp_scrape {
             my ($delay, $link) = @_;
 
             $c->cache($link => sub {
-                my ($ua, $mojo) = @_;
+                my ($ua, $tx) = @_;
 
                 # Release details are found within a javascript array
-                if (my ($data) = $mojo->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
+                if (my ($data) = $tx->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
 
                     return $cb->({
                         artist => $data =~ /artist: "(.*?)",?/,

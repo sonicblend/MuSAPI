@@ -16,9 +16,9 @@ sub register {
 }
 
 sub query_redis {
-    my ($self, $c, $query, $cb) = @_;
+    my ($self, $c, $url, $cb) = @_;
 
-    unless ($query) {
+    unless ($url) {
         warn "redis helper expects a query";
         return $cb->();
     }
@@ -29,20 +29,20 @@ sub query_redis {
 #            warn "1. search redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
 
             # search redis
-            $redis->get($query, $delay->begin);
+            $redis->get($url, $delay->begin);
         },
         sub {
             my ($delay, $err, $message) = @_;
 
             # hit!
             if ($message) {
-                say "cache hit for '$query'";
+                say "cache hit for '$url'";
 #                warn "2. cache hit - return with cached message\n";
                 return $cb->($c->ua, $self->_fake_transaction($message));
             }
 
             # miss
-            say "cache missed for '$query'";
+            say "cache missed for '$url'";
 #            warn "2. cache missed. steps remaining (", scalar @{$delay->remaining}, ")\n";
             $delay->pass;
         },
@@ -51,14 +51,14 @@ sub query_redis {
 
             # search live
 #            warn "3. search. steps remaining (", scalar @{$delay->remaining}, ")\n";
-            $c->ua->get($query, $delay->begin);
+            $c->ua->get($url, $delay->begin);
         },
         sub {
             my ($delay, $tx) = @_;
 
             # save key-value in redis
 #            warn "4. store response in redis. steps remaining (", scalar @{$delay->remaining}, ")\n";
-            $redis->set($query => $tx->res->body);
+            $redis->set($url => $tx->res->body);
 
             $delay->pass($tx->res->body);
         },
