@@ -21,21 +21,10 @@ sub register {
 # Bandcamp do not provide a public API so use a Google Custom Search to
 # search Bandcamp, with filter restricting results to the bandcamp.com domain.
 #
-# The RESTful API free limit is 100 queries per day, then - if billing is
-# enabled they charge $5 / 10,000 queries. At time of writing, Bing and Yahoo
-# had limited coverage of Bandcamp.
+# The free query limit is 100 per day.
 #
-# Hitting the query limit is not currently supported... It would be best to
-# avoid caching failed results.
-#
-# Query paramater list:
-# https://developers.google.com/custom-search/json-api/v1/reference/cse/list
-#
-# Interactive API explorer:
-# https://developers.google.com/apis-explorer/#p/customsearch/v1/search.cse.list
-#
-# Partial response filters: (the &fields parameter)
-# https://developers.google.com/custom-search/json-api/v1/performance#partial
+# See wiki for Custom Search documentation links:
+# https://github.com/sonicblend/MuSAPI/wiki/Bandcamp-via-Google-Custom-Search
 
 sub query_bandcamp_cs {
     my ($self, $c, $query, $cb) = @_;
