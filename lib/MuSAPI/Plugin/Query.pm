@@ -1,7 +1,6 @@
 package MuSAPI::Plugin::Query;
 use Mojo::Base 'Mojolicious::Plugin';
 
-use MuSAPI::Model::Release;
 use Mojo::Util qw/url_escape/;
 
 my $bandcamp_cs_cx;
@@ -42,12 +41,12 @@ sub query_deezer {
 
             my @json;
             foreach my $result ( @{ $mojo->res->json->{data} } ) {
-                push @json, MuSAPI::Model::Release->new(
+                push @json, {
                     artist => $result->{artist}{name},
                     title  => $result->{title},
                     link   => $result->{link},
                     id     => $result->{id},
-                )->to_json;
+                };
             };
 
             # return the first result only, the front-end isn't ready to
@@ -121,14 +120,12 @@ sub query_bandcamp_scrape {
                 # Release details are found within a javascript array
                 if (my ($data) = $mojo->res->body =~ m/var EmbedData = \{(.*?)\}\;/s) {
 
-                    my $json = MuSAPI::Model::Release->new(
+                    return $cb->({
                         artist => $data =~ /artist: "(.*?)",?/,
                         title  => $data =~ /album_title: "(.*?)",?/,
                         link   => $link,
                         id     => $data =~ /tralbum_param:.*?value: (\d+),?/,
-                    )->to_json;
-
-                    return $cb->($json);
+                    });
                 }
 
                 warn "Bandcamp page scrape fail";
