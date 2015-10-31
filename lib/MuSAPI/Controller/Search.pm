@@ -35,7 +35,7 @@ sub search_all {
         $json->{deezer} = shift;
         $one->();
     });
-    $self->query_bandcamp($query, sub {
+    $self->query_bandcamp_cs($query, sub {
         $json->{bandcamp} = shift;
         $two->();
     });
@@ -51,8 +51,8 @@ sub search_provider {
     my $cb = sub {
         return $self->render(json => shift);
     };
-    return $self->query_bandcamp($query, $cb) if $provider =~ m/^bandcamp$/i;
-    return $self->query_deezer($query, $cb)   if $provider =~ m/^deezer$/i;
+    return $self->query_bandcamp_cs($query, $cb) if $provider =~ m/^bandcamp$/i;
+    return $self->query_deezer($query, $cb) if $provider =~ m/^deezer$/i;
 
     return $self->reply->exception("unsupported provider value: '$provider'");
 }

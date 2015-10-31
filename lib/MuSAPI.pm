@@ -8,11 +8,9 @@ sub startup {
     # Add helper 'cache': wraps ua->get with a query to the cache first, to
     # reduce repeated traffic
     $self->plugin('MuSAPI::Plugin::Cache');
-    $self->plugin('MuSAPI::Plugin::Query');
-
-    # increase max_redirects from 0 as google redirects hits to their search
-    # page e.g. to a closer tld server
-    $self->ua->max_redirects(2);
+    $self->plugin('MuSAPI::Plugin::Query::Bandcamp::CustomSearchAPI');
+    #$self->plugin('MuSAPI::Plugin::Query::Bandcamp::Scrape');
+    $self->plugin('MuSAPI::Plugin::Query::Deezer');
 
     # Router
     my $r = $self->routes;
