@@ -4,16 +4,13 @@ use Mojo::Base 'Mojolicious::Controller';
 sub search {
     my $self = shift;
 
-    my $query    = $self->param('q')
-        or return $self->reply->not_found;
-    my $provider = $self->param('p')
-        or return $self->search_all($query);
+    my $query    = $self->param('q') or return $self->reply->not_found;
 
-    # limit search to a specific provider
-    return $self->search_deezer($query)   if $provider =~ m/^deezer$/i;
-    return $self->search_bandcamp($query) if $provider =~ m/^bandcamp$/i;
+    # search all providers if p not specified
+    my $provider = $self->param('p') or return $self->search_all($query);
 
-    return $self->reply->exception("unsupported provider value: '$provider'");
+    # restrict search to specific provider
+    return $self->search_provider($query, $provider);
 }
 
 sub search_all {
@@ -46,24 +43,18 @@ sub search_all {
     $self->render_later;
 }
 
-sub search_deezer {
-    my ($self, $query) = @_;
+sub search_provider {
+    my ($self, $query, $provider) = @_;
 
-    $self->query_deezer($query, sub {
-        return $self->render(json => shift);
-    });
-
+    # limit search to specific provider
     $self->render_later;
-}
-
-sub search_bandcamp {
-    my ($self, $query) = @_;
-
-    $self->query_bandcamp($query, sub {
+    my $cb = sub {
         return $self->render(json => shift);
-    });
+    };
+    return $self->query_bandcamp($query, $cb) if $provider =~ m/^bandcamp$/i;
+    return $self->query_deezer($query, $cb)   if $provider =~ m/^deezer$/i;
 
-    $self->render_later;
+    return $self->reply->exception("unsupported provider value: '$provider'");
 }
 
 1;
