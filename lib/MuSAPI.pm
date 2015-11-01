@@ -5,8 +5,6 @@ use Mojo::Base 'Mojolicious';
 sub startup {
     my $self = shift;
 
-    # Add helper 'cache': wraps ua->get with a query to the cache first, to
-    # reduce repeated traffic
     $self->plugin('MuSAPI::Plugin::Cache');
     $self->plugin('MuSAPI::Plugin::Query::Bandcamp::CustomSearchAPI');
     #$self->plugin('MuSAPI::Plugin::Query::Bandcamp::Scrape');
