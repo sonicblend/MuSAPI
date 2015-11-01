@@ -98,7 +98,8 @@ sub query_bandcamp_scrape {
                     });
                 }
 
-                warn "Bandcamp page scrape fail";
+                use Data::Dumper;
+                $c->app->log->error("Bandcamp page scrape fail", Dumper $tx->res);
                 return $cb->({ not_found => 1 });
             });
         },
