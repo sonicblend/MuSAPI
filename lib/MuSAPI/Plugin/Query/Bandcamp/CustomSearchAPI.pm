@@ -27,7 +27,7 @@ sub init {
 sub query_cb {
     my ($self, $c, $query, $cb, $tx) = @_;
 
-    if (@{$tx->res->json->{items}}) {
+    if (exists $tx->res->json->{items} and @{$tx->res->json->{items}}) {
         my $first = $tx->res->json->{items}[0];
 
         # awesome, bandcamp provides schema.org and opengraph metadata
