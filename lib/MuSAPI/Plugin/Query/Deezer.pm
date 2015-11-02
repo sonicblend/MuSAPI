@@ -18,6 +18,9 @@ sub query_deezer {
     $c->cache($url => sub {
         my ($tx) = @_;
 
+        # dont process result if the query wasn't a success
+        return $self->unexpected_status($c, $tx, $cb) if $tx->res->code != 200;
+
         if ($tx->res->json->{total} > 0) {
 
             my @json;
@@ -47,6 +50,13 @@ sub generate_url {
 
     return 'http://api.deezer.com/search/album'
            .'?q='.url_escape(lc($query));
+}
+
+sub unexpected_status {
+    my ($self, $c, $tx, $cb) = @_;
+
+    $c->app->log->error('Unexpected status "'.$tx->res->code.'" from Deezer: "'.$tx->res->body.'"');
+    return $cb->({server_error => 1});
 }
 
 1;
