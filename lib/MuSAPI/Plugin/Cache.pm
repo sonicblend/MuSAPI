@@ -1,7 +1,7 @@
 package MuSAPI::Plugin::Cache;
 use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::Redis2;
-use Data::Dumper;
+use Mojo::Util qw/dumper/;
 
 # Wrap the ua->get with a layer of cache. Requests are stored with a key name
 # matching the url.
@@ -73,7 +73,7 @@ sub query_redis {
             }
             else {
                 # output failure, but don't save to cache
-                $c->app->log->error('Query unsuccessful: ', Dumper $tx->res);
+                $c->app->log->error('Query unsuccessful: ', dumper $tx->res);
             }
         },
         sub {
