@@ -3,8 +3,11 @@ use Mojo::Base -strict;
 use Test::More;
 use Test::Mojo;
 
+use MuSAPI::Plugin::FakeCache;
+use Mojolicious::Lite;
+
 # Mock the responses Deezer may return
-my @test_results = (
+my $test_results = [
     # success, single result
     {code => 200, body => '{"data":[{"id":3426651,"title":"Ground Of Its Own","link":"http:\/\/www.deezer.com\/album\/3426651","cover":"http:\/\/api.deezer.com\/album\/3426651\/image","cover_small":"http:\/\/e-cdn-images.deezer.com\/images\/cover\/b802865107b7e9257e824c9195b64db3\/56x56-000000-80-0-0.jpg","cover_medium":"http:\/\/e-cdn-images.deezer.com\/images\/cover\/b802865107b7e9257e824c9195b64db3\/250x250-000000-80-0-0.jpg","cover_big":"http:\/\/e-cdn-images.deezer.com\/images\/cover\/b802865107b7e9257e824c9195b64db3\/500x500-000000-80-0-0.jpg","genre_id":-1,"nb_tracks":8,"record_type":"album","tracklist":"http:\/\/api.deezer.com\/album\/3426651\/tracks","explicit_lyrics":false,"artist":{"id":288646,"name":"Sam Lee","link":"http:\/\/www.deezer.com\/artist\/288646","picture":"http:\/\/api.deezer.com\/artist\/288646\/image","picture_small":"http:\/\/e-cdn-images.deezer.com\/images\/artist\/\/56x56-000000-80-0-0.jpg","picture_medium":"http:\/\/e-cdn-images.deezer.com\/images\/artist\/\/250x250-000000-80-0-0.jpg","picture_big":"http:\/\/e-cdn-images.deezer.com\/images\/artist\/\/500x500-000000-80-0-0.jpg","tracklist":"http:\/\/api.deezer.com\/artist\/288646\/top?limit=50","type":"artist"},"type":"album"}],"total":1}'},
     # success, multiple results
@@ -16,34 +19,9 @@ my @test_results = (
     # internal server error, result not json
     {code => 500, body => ''},
     {code => 404, body => 'Wrong url silly'},
-);
+];
 
-# Bypass the cache and query, shift the next test_result
-package MuSAPI::Plugin::FakeCache;
-use Mojo::Base 'Mojolicious::Plugin';
-sub register {
-    my ($self, $app) = @_;
-
-    $app->helper(cache => sub {
-        my ($self, $url, $cb) = @_;
-        unless ($url) {
-            $app->log->error('redis helper expects a url');
-            return $cb->();
-        }
-        # Shift a test_result, fake a transaction and return it in the callback
-        my $result = shift @test_results;
-        my $tx = Mojo::Transaction::HTTP->new;
-        $tx->res->code($result->{code});
-        $tx->res->body($result->{body});
-        return $cb->($tx);
-    });
-}
-
-package main;
-
-use Mojolicious::Lite;
-
-plugin 'MuSAPI::Plugin::FakeCache';
+plugin 'MuSAPI::Plugin::FakeCache' => $test_results;
 plugin 'MuSAPI::Plugin::Query::Deezer';
 
 get '/' => sub {
