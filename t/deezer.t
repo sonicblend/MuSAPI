@@ -4,8 +4,9 @@ use Test::More;
 use Test::Mojo;
 
 use MuSAPI::Plugin::FakeCache;
-use Mojolicious::Lite;
 use MuSAPI::Controller::Search;
+
+use Mojolicious::Lite;
 
 # Mock the responses Deezer may return
 my $test_results = [
