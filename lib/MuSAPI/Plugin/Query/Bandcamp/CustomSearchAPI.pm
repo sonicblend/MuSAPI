@@ -1,54 +1,46 @@
 package MuSAPI::Plugin::Query::Bandcamp::CustomSearchAPI;
-use Mojo::Base 'Mojolicious::Plugin';
+use Mojo::Base 'MuSAPI::Plugin::Query';
 use Mojo::Util qw/url_escape/;
+
+# Inherits from 'MuSAPI::Plugin::Query'
+
+has 'provider_name' => 'Bandcamp_CS';
 
 my $bandcamp_cs_cx;
 my $google_api_key;
 
-sub register {
+sub init {
     my ($self, $app) = @_;
 
     $bandcamp_cs_cx = $ENV{'BANDCAMP_CS_CX'}
         or die 'BANDCAMP_CS_CX env variable not set';
     $google_api_key = $ENV{'GOOGLE_API_KEY'}
         or die 'GOOGLE_API_KEY env variable not set';
-
-    $app->helper(query_bandcamp_cs => sub { $self->query_bandcamp_cs(@_) });
-
-    return;
 }
 
 # Bandcamp do not provide a public API so use a Google Custom Search to
 # search Bandcamp, with filter restricting results to the bandcamp.com domain.
 #
-# The free query limit is 100 per day.
-#
 # See wiki for Custom Search documentation links:
 # https://github.com/sonicblend/MuSAPI/wiki/Bandcamp-via-Google-Custom-Search
 
-sub query_bandcamp_cs {
-    my ($self, $c, $query, $cb) = @_;
+sub query_cb {
+    my ($self, $c, $query, $cb, $tx) = @_;
 
-    my $url = $self->generate_url($query);
+    if (@{$tx->res->json->{items}}) {
+        my $first = $tx->res->json->{items}[0];
 
-    $c->cache($url => sub {
-        my ($tx) = @_;
+        # awesome, bandcamp provides schema.org and opengraph metadata
+        return $cb->({
+            artist => $first->{pagemap}->{musicalbum}[0]->{byartist},
+            title  => $first->{pagemap}->{musicalbum}[0]->{name},
+            link   => $first->{link},
+            # only the numerical id segment
+            id     => $first->{pagemap}->{metatags}[0]->{'og:video'} =~ /album=(\d+)/,
+        });
+    }
 
-        if ($tx->res->json and @{$tx->res->json->{items}}) {
-            my $first = $tx->res->json->{items}[0];
-
-            # awesome, bandcamp provides schema.org and opengraph metadata
-            return $cb->({
-                artist => $first->{pagemap}->{musicalbum}[0]->{byartist},
-                title  => $first->{pagemap}->{musicalbum}[0]->{name},
-                link   => $first->{link},
-                # only the numerical id segment
-                id     => $first->{pagemap}->{metatags}[0]->{'og:video'} =~ /album=(\d+)/,
-            });
-        }
-
-        return $cb->({ not_found => 1 });
-    });
+    return $cb->({ not_found => 1 });
 }
 
 sub generate_url {
