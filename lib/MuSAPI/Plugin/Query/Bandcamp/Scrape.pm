@@ -36,21 +36,7 @@ sub register {
 sub query_bandcamp_scrape {
     my ($self, $c, $query, $cb) = @_;
 
-    # Regexp to switch title and artist name around, as Bandcamp favour "Title
-    # by Artist".
-    #
-    # Nowhere on bandcamp's shop pages do they use the "Artist - Title"
-    # format, however if the regular expression fails (eg no dash included at
-    # all) - default to using the text provided; unquoted. Excluding quotes
-    # permits the search results to be less specific.
-    $query =~ s/^
-                (?<artist>.*?) # artist name
-                \s*[-–]\s*     # dash or emdash surrounded by optional multiple spaces
-                (?<title>.*)   # title
-                $
-               /"$+{title} by $+{artist}"/x;
-
-    my $url = 'google.com/search?q=site:bandcamp.com%2Falbum+'.url_escape(lc($query));
+    my $url = $self->generate_url($query);
 
     $c->delay(
         # Scrape Google to find first result
@@ -104,6 +90,28 @@ sub query_bandcamp_scrape {
             });
         },
     );
+}
+
+sub generate_url {
+    my ($self, $query) = @_;
+
+    # Regexp to switch title and artist name around, as Bandcamp favour "Title
+    # by Artist".
+    #
+    # Nowhere on bandcamp's shop pages do they use the "Artist - Title"
+    # format, however if the regular expression fails (eg no dash included at
+    # all) - default to using the text provided; unquoted. Excluding quotes
+    # permits the search results to be less specific.
+    $query =~ s/^
+                (?<artist>.*?) # artist name
+                \s*[-–]\s*     # dash or emdash surrounded by optional multiple spaces
+                (?<title>.*)   # title
+                $
+               /"$+{title} by $+{artist}"/x;
+
+    return 'google.com/search'
+           .'?q=site:bandcamp.com%2Falbum'
+           .'+'.url_escape(lc($query));
 }
 
 1;

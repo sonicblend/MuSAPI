@@ -13,10 +13,7 @@ sub register {
 sub query_deezer {
     my ($self, $c, $query, $cb) = @_;
 
-    # replace characters deezer doesn't like
-    $query =~ s/–/-/g;
-
-    my $url = 'http://api.deezer.com/search/album?q='.url_escape(lc($query));
+    my $url = $self->generate_url($query);
 
     $c->cache($url => sub {
         my ($tx) = @_;
@@ -40,6 +37,16 @@ sub query_deezer {
 
         return $cb->({ not_found => 1 });
     });
+}
+
+sub generate_url {
+    my ($self, $query) = @_;
+
+    # replace characters deezer doesn't like
+    $query =~ s/–/-/g;
+
+    return 'http://api.deezer.com/search/album'
+           .'?q='.url_escape(lc($query));
 }
 
 1;

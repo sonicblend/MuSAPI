@@ -29,20 +29,7 @@ sub register {
 sub query_bandcamp_cs {
     my ($self, $c, $query, $cb) = @_;
 
-    # Split search terms and quote as "artist name" "title"
-    $query =~ s/^
-                (?<artist>.*?) # artist name
-                \s*[-–]\s*     # dash or emdash surrounded by optional multiple spaces
-                (?<title>.*)   # title
-                $
-               /"$+{artist}" "$+{title}"/x;
-
-    my $url = 'https://www.googleapis.com/customsearch/v1'
-             .'?num=1'
-             .'&fields=items(link,pagemap(musicalbum,metatags))'
-             .'&cx='.  $bandcamp_cs_cx
-             .'&key='. $google_api_key
-             .'&q='.   url_escape(lc $query);
+    my $url = $self->generate_url($query);
 
     $c->cache($url => sub {
         my ($tx) = @_;
@@ -62,6 +49,25 @@ sub query_bandcamp_cs {
 
         return $cb->({ not_found => 1 });
     });
+}
+
+sub generate_url {
+    my ($self, $query) = @_;
+
+    # Split search terms and quote as "artist name" "title"
+    $query =~ s/^
+                (?<artist>.*?) # artist name
+                \s*[-–]\s*     # dash or emdash surrounded by optional multiple spaces
+                (?<title>.*)   # title
+                $
+               /"$+{artist}" "$+{title}"/x;
+
+    return 'https://www.googleapis.com/customsearch/v1'
+           .'?num=1'
+           .'&fields=items(link,pagemap(musicalbum,metatags))'
+           .'&cx='.  $bandcamp_cs_cx
+           .'&key='. $google_api_key
+           .'&q='.   url_escape(lc($query));
 }
 
 1;
