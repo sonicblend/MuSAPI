@@ -26,7 +26,7 @@ sub search_all {
     my $two = $delay->begin();
 
     # json rendered when all queries complete
-    $delay->steps(sub { return $self->_render_internal($json) });
+    $delay->steps(sub { return $self->_render_result($json) });
 
     # run queries concurrently
     $self->query_deezer($query, sub {
@@ -46,7 +46,7 @@ sub search_provider {
 
     # limit search to specific provider
     $self->render_later;
-    my $cb = sub { return $self->_render_internal(shift) };
+    my $cb = sub { return $self->_render_result(shift) };
 
     return $self->query_bandcamp_cs($query, $cb) if $provider =~ m/^bandcamp$/i;
     return $self->query_deezer($query, $cb) if $provider =~ m/^deezer$/i;
@@ -54,7 +54,7 @@ sub search_provider {
     return $self->reply->exception("unsupported provider value: '$provider'");
 }
 
-sub _render_internal {
+sub _render_result {
     my ($self, $json) = @_;
     return $self->render(json => {}, status => 500) if exists $json->{server_error};
     return $self->render(json => $json);

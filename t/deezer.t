@@ -5,6 +5,7 @@ use Test::Mojo;
 
 use MuSAPI::Plugin::FakeCache;
 use Mojolicious::Lite;
+use MuSAPI::Controller::Search;
 
 # Mock the responses Deezer may return
 my $test_results = [
@@ -28,30 +29,29 @@ get '/' => sub {
     my $self = shift;
     my $cb = sub {
         my $json = shift;
-        return $self->render(json => {}, status => 500) if exists $json->{server_error};
-        return $self->render(json => $json);
+        return MuSAPI::Controller::Search::_render_result($self, $json);
     };
-    $self->query_deezer('Sam Lee - Ground Of Its Own', $cb);
+    $self->query_deezer($self->param('q'), $cb);
     $self->render_later;
 };
 
 my $t = Test::Mojo->new;
-$t->get_ok('/')->status_is(200)->json_is({
+$t->get_ok('/?q=Sam Lee - Ground Of Its Own')->status_is(200)->json_is({
     artist  => 'Sam Lee',
     title   => 'Ground Of Its Own',
     link    => 'http://www.deezer.com/album/3426651',
     id      => '3426651'
 });
 # MuSAPI ignores the second result
-$t->get_ok('/')->status_is(200)->json_is({
+$t->get_ok('/?q=Benjamin Clementine - At Least For Now')->status_is(200)->json_is({
     artist  => 'Benjamin Clementine',
     title   => 'At Least For Now',
     link    => 'http://www.deezer.com/album/11472122',
     id      => '11472122'
 });
-$t->get_ok('/')->status_is(200)->json_is({not_found => 1});
-$t->get_ok('/')->status_is(500)->json_is({});
-$t->get_ok('/')->status_is(500)->json_is({});
-$t->get_ok('/')->status_is(500)->json_is({});
+$t->get_ok('/?q=abcdfergj')->status_is(200)->json_is({not_found => 1});
+$t->get_ok('/?q=Sam Lee - Ground Of Its Own')->status_is(500)->json_is({});
+$t->get_ok('/?q=Sam Lee - Ground Of Its Own')->status_is(500)->json_is({});
+$t->get_ok('/?q=Sam Lee - Ground Of Its Own')->status_is(500)->json_is({});
 
 done_testing();
