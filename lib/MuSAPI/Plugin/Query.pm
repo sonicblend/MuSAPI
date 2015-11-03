@@ -28,7 +28,8 @@ sub register {
 sub query {
     my ($self, $c, $query, $cb) = @_;
 
-    my $url = $self->generate_url($query);
+    my $url = $self->generate_url($c, $query)
+      or return $cb->({server_error => 1});
 
     $c->cache($url => sub {
         my ($tx) = @_;

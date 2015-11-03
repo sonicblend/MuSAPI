@@ -29,7 +29,7 @@ sub query_cb {
 }
 
 sub generate_url {
-    my ($self, $query) = @_;
+    my ($self, $c, $query) = @_;
 
     # replace characters deezer doesn't like
     $query =~ s/–/-/g;

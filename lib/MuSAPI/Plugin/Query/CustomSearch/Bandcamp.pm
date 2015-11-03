@@ -44,7 +44,7 @@ sub query_cb {
 }
 
 sub generate_url {
-    my ($self, $query) = @_;
+    my ($self, $c, $query) = @_;
 
     # Split search terms and quote as "artist name" "title"
     $query =~ s/^

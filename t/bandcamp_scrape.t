@@ -45,4 +45,11 @@ $t->get_ok('/?q=https://beaconsound.bandcamp.com/album/peter-broderick-gabriel-s
 $t->get_ok('/?q=https://beaconsound.bandcamp.com/album/peter-broderick-gabriel-saloman')->status_is(500)->json_is({});
 $t->get_ok('/?q=https://machinefabriek.bandcamp.com/album/cats-dogs-mice')->status_is(500)->json_is({});
 
+{
+    # this test shouldn't get as far as shifting a test_result
+    my $c = scalar @{$test_results};
+    $t->get_ok('/?q=https://youtube.com')->status_is(500)->json_is({});
+    BAIL_OUT 'processed a non-bandcamp url' if scalar @{$test_results} != $c;
+}
+
 done_testing();

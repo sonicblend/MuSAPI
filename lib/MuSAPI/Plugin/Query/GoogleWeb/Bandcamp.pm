@@ -58,7 +58,7 @@ sub query_cb {
 }
 
 sub generate_url {
-    my ($self, $query) = @_;
+    my ($self, $c, $query) = @_;
 
     # Regexp to switch title and artist name around, as Bandcamp favour "Title
     # by Artist".

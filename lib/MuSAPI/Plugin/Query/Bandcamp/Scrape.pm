@@ -27,12 +27,11 @@ sub query_cb {
 }
 
 sub generate_url {
-    my ($self, $link) = @_;
+    my ($self, $c, $link) = @_;
 
     unless ($link =~ /bandcamp.com/) {
-        warn "Expecting a bandcamp url, got: '$link'";
-        # TODO
-        #        $self->log->error("Expecting a bandcamp url, got: '$link'");
+        $c->app->log->error("Expecting a bandcamp url, got: '$link'");
+        return '';
     }
 
     return $link;
