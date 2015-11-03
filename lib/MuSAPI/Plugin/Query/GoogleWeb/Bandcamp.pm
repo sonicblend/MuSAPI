@@ -52,7 +52,7 @@ sub generate_url {
                 $
                /"$+{title} by $+{artist}"/x;
 
-    return 'google.com/search'
+    return 'http://google.com/search'
            .'?q=site:bandcamp.com%2Falbum'
            .'+'.url_escape(lc($query));
 }
