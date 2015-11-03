@@ -1,0 +1,235 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html   xmlns:og="http://opengraphprotocol.org/schema/"
+        xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <title>Machinefabriek</title>
+    
+    
+
+
+ 
+    <meta name="Description" content="
+">
+    
+     
+    
+    <link rel="shortcut icon" href="https://s1.bcbits.com/img/bc_favicon.ico">
+    <link rel="apple-touch-icon" href="https://s1.bcbits.com/img/bc_favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black translucent">-->
+    
+    
+    
+    
+    
+     
+
+    
+    
+    
+    
+    <link type="text/css" rel="stylesheet" href="https://s1.bcbits.com/tmpdata/cache/global_bundle_c55288164596ca820cd21d968d75a2d6.css">
+
+    <script type="text/javascript">
+        var isDebug = false;
+        var ErrorCollector = {"enabled":true,"sampleRate":null};
+        var CfgShare2 = true; // fixme: remove after Share2 always on
+    </script>
+
+    
+
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    <!--@@PAGEBUCKETS@@-->
+</head>
+
+
+
+<body class="webkit mac ">
+
+    <div id="pagedata" data-blob="{&quot;templglobals&quot;:{&quot;endpoint_mobilized&quot;:true,&quot;is_phone&quot;:false},&quot;recaptcha_public_key&quot;:&quot;6LfhSPgSAAAAAPwto_qzHuwSmjgfrkg35xXXu_8K&quot;}"></div>
+
+
+
+
+
+
+
+<div id="centerWrapper" >
+    <div id="propOpenWrapper">
+        
+
+        
+
+        
+
+    
+    
+    
+
+    
+
+        <div id="pgBd" class="yui-skin-sam">
+            
+
+
+
+
+    
+    
+        
+            
+        
+    
+
+    <style type="text/css">
+        .error-details {
+            padding-left: 1.5em;
+        }
+        
+        .ieLte7 ul {
+            margin-left: 1.5em;
+        }
+    
+        .errorInfo {
+            font-size: 93%;
+            color: gray;
+            margin-top: 3em;
+            padding: 1em;
+            border: dotted silver 1px;
+            float: left;
+        }
+    </style>
+
+
+<div class="content">
+
+
+    
+
+
+
+
+    
+    <h2>Sorry, that something isn't here.</h2>
+        
+    <p>
+        Please <a href="http://machinefabriek.bandcamp.com/">start at the beginning</a> and you'll certainly find what you're looking for.</p>
+    
+
+
+
+</div>
+
+
+            <div style="clear:both"></div>
+        </div>
+        
+            <div id="pgFt">
+            
+                <div id="pgFt-inner" class="pgft-desktop">
+
+    <div id="footer-logo-wrapper">
+    
+        <a id="footer-logo" href="https://bandcamp.com?from=logo" ><span class="hiddenAccess">Bandcamp</span></a>
+    
+        <span class="webapp-selector-ui" style="display:none"></span>
+    </div>
+    
+    <ul id="legal" class="horizNav">
+        
+        <li id="login"><a href="https://bandcamp.com/login">log in</a></li>
+        
+        <li><a href="https://bandcamp.com/terms_of_use">terms of use</a></li>
+        <li><a href="https://bandcamp.com/privacy">privacy</a></li>
+        <li><a href="https://bandcamp.com/copyright">copyright policy</a></li>
+        
+            <li id="site-status"><a href="http://twitter.com/bandcampstatus" target="_blank">status</a></li>
+        
+        
+        
+        <li class="view-switcher desktop"><a>switch to mobile view</a></li>
+        
+    </ul>
+    <span class="static-content">&nbsp;</span>
+
+</div>
+
+
+            
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+if (!isDebug) {
+    var _gaq = _gaq || [];
+    var _qevents = _qevents || [];
+
+    (function() {
+        var doc = document, isHttps = ('https:' == doc.location.protocol);
+        function loadScript(src) {
+            var n = doc.createElement('script'), s = doc.getElementsByTagName('script')[0]; 
+            n.type = 'text/javascript'; n.async = true; n.src = src;
+            s.parentNode.insertBefore(n, s);            
+        }
+
+        
+        _gaq.push(
+            ['_setAccount', 'UA-4189134-2'],
+            ['_setDomainName', 'bandcamp.com'], 
+            ['_setAllowAnchor', true],
+            ['_trackPageview']
+        
+        );
+        loadScript((isHttps ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+
+        
+        _qevents.push({qacct:'p-0207-dhLCDgvg'});
+        loadScript((isHttps ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js');
+    })();
+}
+</script>
+<noscript>
+    <div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-0207-dhLCDgvg.gif" border="0" height="1" width="1" alt=""></div>
+</noscript>
+ 
+
+</body>
+</html>
+<!-- bender04-4 Tue Nov 03 17:04:30 UTC 2015 -->
+
+

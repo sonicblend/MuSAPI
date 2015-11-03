@@ -1,0 +1,1684 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html   xmlns:og="http://opengraphprotocol.org/schema/"
+        xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <title>Blank Grey Canvas Sky | Machinefabriek</title>
+    
+    
+
+
+ 
+    <meta name="Description" content="
+Blank Grey Canvas Sky by Peter Broderick &amp; Machinefabriek, released 14 November 2009
+
+1. Departure
+2. Planes
+3. Kites
+4. Rain
+5. Blank Grey
+6. Homecoming
+
+This beautiful collaboration features two of the most prolific talents from the current experimental scene, both with reputations of leviathan proportions. For this release, Machinefabriek, based in Rotterdam, The Netherlands, and Peter Broderick, based in Berlin, Germany (although constantly on the road) set out to push each others limits, and to explore new areas within their own creativity.
+The resulting album is a delicately crafted one, with Machinefabriek and Broderick virtuosically combining instrumental compositions, drone, and heartfelt soundscapes with song structures and vocals. Or as Peter Broderick himself put it: &quot;We tried a lot of different things on this album, pushing ourselves to explore new areas... And for me the result is the collection of music I feel most proud of so far.&quot;
+">
+    
+     
+         
+           
+    
+    <link rel="shortcut icon" href="https://f1.bcbits.com/img/a4048551747_3.jpg">
+    <link rel="apple-touch-icon" href="https://f1.bcbits.com/img/a4048551747_3.jpg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black translucent">-->
+    
+    
+    
+        <meta name="title" content="Blank Grey Canvas Sky, by Peter Broderick &amp; Machinefabriek">
+        <meta property="og:title" content="Blank Grey Canvas Sky, by Peter Broderick &amp; Machinefabriek">
+        <meta property="og:type" content="album">
+        <meta property="og:site_name" content="Machinefabriek">
+        <meta property="og:description" content="6 track album">
+        
+        
+        <meta property="twitter:title" content="Blank Grey Canvas Sky, by Peter Broderick &amp; Machinefabriek" />
+        <meta property="twitter:description" content="6 track album"/>
+        
+        
+    
+    
+        
+        
+        <link rel="image_src" href="https://f1.bcbits.com/img/a4048551747_16.jpg">
+        <meta property="og:image" content="https://f1.bcbits.com/img/a4048551747_5.jpg">
+        
+        <meta property="og:url"   content="http://machinefabriek.bandcamp.com/album/blank-grey-canvas-sky">
+        
+        <meta name="medium"         content="video">
+        <meta name="video_height"   content="105">
+        <meta name="video_width"    content="400">
+        <meta name="video_type"     content="application/x-shockwave-flash">  
+
+		 
+            
+             
+        
+        
+
+        
+            <meta property="og:video" 
+                content="https://bandcamp.com/EmbeddedPlayer/v=2/album=2998386355/size=large/tracklist=false/artwork=small/"> 
+            <meta property="og:video:secure_url"
+                content="https://bandcamp.com/EmbeddedPlayer/v=2/album=2998386355/size=large/tracklist=false/artwork=small/">       
+            <meta property="og:video:type" content="text/html">
+            <meta property="og:video:height" content="120">
+            <meta property="og:video:width" content="400">
+        
+
+
+        <meta property="fb:app_id" content="165661066782720"> 
+        
+        
+        <meta property="twitter:site" content="bandcamp" />
+        <meta property="twitter:card" content="player" />
+        <meta property="twitter:player" content="https://bandcamp.com/EmbeddedPlayer/v=2/album=2998386355/size=large/linkcol=0084B4/notracklist=true/twittercard=true/" />
+        <meta property="twitter:player:width" content="350" />
+        <meta property="twitter:player:height" content="467" />        
+        <meta property="twitter:image" content="https://f1.bcbits.com/img/a4048551747_2.jpg" />
+        
+        
+        
+        
+    
+    
+     
+
+    
+    
+    
+    
+    <link type="text/css" rel="stylesheet" href="https://s1.bcbits.com/tmpdata/cache/global_bundle_c55288164596ca820cd21d968d75a2d6.css">
+<link type="text/css" rel="stylesheet" href="https://s1.bcbits.com/tmpdata/cache/tralbum_bundle_184a60d4c73f2ae89676c0b111d09fde.css">
+
+    <script type="text/javascript">
+        var isDebug = false;
+        var ErrorCollector = {"enabled":true,"sampleRate":null};
+        var CfgShare2 = true; // fixme: remove after Share2 always on
+    </script>
+
+    
+
+
+<script type="text/javascript">
+    
+    var isDebug = null;
+    var siteroot = "http://bandcamp.com";
+    var siteroot_https = "https://bandcamp.com";
+    var siteroot_current = "https://bandcamp.com";
+    var band_url = "http://machinefabriek.bandcamp.com";
+    var isProduction = true;
+
+    
+    document.documentElement.className += " js";
+    
+    
+    var Browser = {"make":"chrome","type":"webkit","version":[46,0,2490,80],"platform_name":"","media_mode":"desktop","platform_closed":false,"grade":"A","platform":"mac","mobile_app_compatible":false};    
+
+    
+    var TemplGlobals = {"image_siteroot":"http://f1.bcbits.com","base_port_str":null,"is_https":true,"siteroot_https":"https://bandcamp.com","image_siteroot_https":"https://f1.bcbits.com","image_formats":[{"resize_algo":"original","file_format":null,"name":"original","id":0},{"resize_algo":"scrub","file_format":"original","name":"fullsize","id":1},{"resize_algo":"thumb","file_format":"JPEG","width":350,"name":"art_thumb","id":2,"height":350},{"resize_algo":"thumb","file_format":"JPEG","width":100,"name":"art_thumbthumb","id":3,"height":100},{"resize_algo":"thumb","file_format":"JPEG","width":300,"name":"art_embedded_metadata","id":4,"height":300},{"resize_algo":"thumb","file_format":"JPEG","width":700,"name":"art_embedded_metadata_large","id":5,"height":700},{"resize_algo":"thumb","file_format":"JPEG","width":100,"name":"art_embedded_player","id":6,"height":100},{"resize_algo":"thumb","file_format":"JPEG","width":150,"name":"art_embedded_player_large","id":7,"height":150},{"resize_algo":"thumb","file_format":"JPEG","width":124,"name":"art_tags","id":8,"height":124},{"resize_algo":"thumb","file_format":"JPEG","width":210,"name":"art_tags_large","id":9,"height":210},{"resize_algo":"fit","file_format":"JPEG","width":1200,"name":"screen","id":10,"height":1200},{"resize_algo":"thumb","file_format":"JPEG","width":172,"name":"art_tag_search","id":11,"height":172},{"resize_algo":"thumb","file_format":"JPEG","width":138,"name":"art_artist_index","id":12,"height":138},{"resize_algo":"thumb","file_format":"JPEG","width":380,"name":"art_solo_feature","id":13,"height":380},{"resize_algo":"thumb","file_format":"JPEG","width":368,"name":"art_feature","id":14,"height":368},{"resize_algo":"thumb","file_format":"JPEG","width":135,"name":"art_feed_new_release","id":15,"height":135},{"minsize":{"format":5,"size":30000},"resize_algo":"thumb","file_format":"JPEG","width":700,"name":"art_app_large","id":16,"height":700,"quality":70},{"resize_algo":"fit","file_format":"JPEG","width":1024,"name":"bio_screen","id":20,"height":1024},{"resize_algo":"fit","file_format":"JPEG","width":120,"name":"bio_thumb","id":21,"height":180},{"resize_algo":"thumb","file_format":"JPEG","width":25,"name":"bio_navbar","id":22,"height":25},{"resize_algo":"fit","file_format":"JPEG","width":300,"name":"bio_phone","id":23,"height":300},{"resize_algo":"thumb","file_format":"JPEG","width":300,"name":"bio_licensing","id":24,"height":300},{"resize_algo":"fit","file_format":"JPEG","width":700,"name":"bio_app","id":25,"height":700,"quality":70},{"resize_algo":"thumb","file_format":"JPEG","width":800,"name":"bio_subscribe","id":26,"height":600},{"resize_algo":"thumb","file_format":"JPEG","width":715,"name":"bio_subscribe2","id":27,"height":402},{"resize_algo":"thumb","file_format":"JPEG","width":768,"name":"bio_featured","id":28,"height":432},{"resize_algo":"fit","file_format":"original","width":1024,"name":"package_screen","id":31,"height":1024},{"resize_algo":"thumb","file_format":"JPEG","width":380,"name":"package_solo_feature","id":32,"height":285},{"resize_algo":"thumb","file_format":"JPEG","width":368,"name":"package_feature","id":33,"height":276},{"resize_algo":"thumb","file_format":"JPEG","width":400,"name":"package_page","id":36,"height":300},{"resize_algo":"thumb","file_format":"JPEG","width":168,"name":"package_thumb","id":37,"height":126},{"resize_algo":"thumb","file_format":"JPEG","width":210,"name":"fan_bio_thumb","id":41,"height":210},{"resize_algo":"thumb","file_format":"JPEG","width":50,"name":"fan_bio_thumb_small","id":42,"height":50},{"resize_algo":"fit","file_format":"JPEG","width":99999,"name":"fan_banner","id":43,"height":100},{"resize_algo":"thumb","file_format":"JPEG","width":140,"name":"results_grid","id":50,"height":140},{"resize_algo":"thumb","file_format":"original","width":975,"max_height":180,"name":"custom_header_desktop","id":100},{"resize_algo":"fit","file_format":"JPEG","width":750,"name":"custom_header_paypal","id":101,"height":90},{"resize_algo":"thumb","file_format":"JPEG","width":640,"max_height":124,"name":"custom_header_phone","id":120},{"resize_algo":"scrub","file_format":"JPEG","name":"design_background","id":130},{"resize_algo":"thumb","file_format":"JPEG","width":60,"name":"subscribe_message","id":140,"height":45},{"resize_algo":"thumb","file_format":"JPEG","width":1280,"name":"video_landscape","id":150,"height":720},{"resize_algo":"thumb","file_format":"JPEG","width":720,"name":"video_portrait","id":151,"height":1280},{"top":0,"resize_algo":"thumb_crop","file_format":"JPEG","width":60,"name":"buy_full_email_thumb_montage","id":160,"height":100,"left":40}],"sitedomain":"bandcamp.com","siteroot":"http://bandcamp.com","siteroot_current":"https://bandcamp.com","static_siteroot":"https://s1.bcbits.com","custom_domains_active":true};
+
+    var JSLoader = {
+        currentset : { foot: [] },
+
+        writeScriptTags: function( section ) {
+            var libs = JSLoader.currentset[ section ];
+            if ( !libs ) 
+                throw "couldn't find js section: " + section;
+            for ( var i=0; i < libs.length; i++ ) {
+                document.write( '<script type="text/javascript" src="' + libs[i] + '"><\/s' + 'cript>' );
+            }
+        },
+        
+        requireJS : function(src) {
+            if(typeof(src) == "string")
+            {
+                JSLoader._addRequire(src);
+            }
+            else
+            {
+                for(var i=0; i<src.length; i++)
+                {
+                    JSLoader._addRequire(src[i]);
+                }
+            }
+        },
+        
+        _addRequire : function(src) {
+            var libs = JSLoader.currentset.foot;
+            for(var i=0; i<libs.length; i++)
+            {
+                if(libs[i] == src) return;
+            }
+            libs.push( src );
+        }
+    };
+
+</script>  
+
+<script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/global_head_bundle_min_97e3ac298202e6fc04c216dbd09bd50e.js"></script>
+
+
+
+
+    <script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/tralbum_head_bundle_min_d9757ba6976397c7053d39e017a7df62.js"></script>
+
+    
+        
+
+    <script type="text/javascript">
+        (function(){
+            function snickerdoodle(which) {
+                var pairs = document.cookie.split(/;\s*/);
+                for (var i = 0; i < pairs.length; ++i) {
+                    var pair = pairs[i].split("=");
+                    if (pair[0] == which) {
+                        return pair[1];
+                    }
+                }
+                return null;
+            }
+
+
+            // pull id out of the cookies
+            window.ClientID = snickerdoodle("client_id");
+
+        })();
+    </script>
+
+
+        <script type="text/javascript">
+            if ( window.MediaView ) {
+            
+                MediaView.initServer("desktop");
+            
+            }
+
+            var gCrumb = null;
+            var _crumbs = {};
+            var UploadInfo = null;
+            
+            Control.registerEvents();
+            Control.registerController( "/no_js", TPController );
+
+        </script>
+    
+
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Machinefabriek" href="http://machinefabriek.bandcamp.com/feed">
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Machinefabriek: Blank Grey Canvas Sky" href="http://machinefabriek.bandcamp.com/feed/album/blank-grey-canvas-sky">
+    
+
+    
+    
+    
+    
+    
+</head>
+
+
+
+<body class="webkit mac ">
+
+    <div id="pagedata" data-blob="{&quot;cfg&quot;:{&quot;video_sharing&quot;:true,&quot;no_flash_uploads&quot;:true,&quot;physical_gifting_zip_regex&quot;:true,&quot;artist_subscriptions&quot;:true,&quot;mobile_app&quot;:true,&quot;physical_gifting&quot;:true,&quot;tralbum_login&quot;:true,&quot;gifting&quot;:true},&quot;item_sellers&quot;:{&quot;3314943471&quot;:{&quot;currency&quot;:&quot;EUR&quot;,&quot;digital_vat_enabled&quot;:true,&quot;max_price&quot;:1000.0,&quot;name&quot;:&quot;Machinefabriek&quot;,&quot;id&quot;:3314943471}},&quot;login_bounce_url&quot;:&quot;https://bandcamp.com/login?bounce=https%3A%2F%2Fmachinefabriek.bandcamp.com%2Falbum%2Fblank-grey-canvas-sky&amp;sig=48542444e88a6d1822972713950e1dd5&quot;,&quot;signup_action_url&quot;:&quot;https://bandcamp.com/fans?band_id=3314943471&amp;bounce_sig=48542444e88a6d1822972713950e1dd5&amp;bounce_url=https%3A%2F%2Fmachinefabriek.bandcamp.com%2Falbum%2Fblank-grey-canvas-sky&amp;item_id=2998386355&amp;item_type=album&quot;,&quot;ip_location_country_code&quot;:&quot;GBR&quot;,&quot;templglobals&quot;:{&quot;endpoint_mobilized&quot;:true,&quot;is_phone&quot;:false},&quot;sidebar_disco&quot;:{&quot;sidebar_max_size&quot;:12,&quot;sidebar_collapse_size&quot;:3,&quot;music_grid&quot;:true,&quot;discography_real_size&quot;:99},&quot;media_mode_test&quot;:false,&quot;recaptcha_public_key&quot;:&quot;6LfhSPgSAAAAAPwto_qzHuwSmjgfrkg35xXXu_8K&quot;,&quot;login_action_url&quot;:&quot;https://bandcamp.com/login?bounce=https%3A%2F%2Fmachinefabriek.bandcamp.com%2Falbum%2Fblank-grey-canvas-sky&amp;sig=48542444e88a6d1822972713950e1dd5&amp;band_id=3314943471&amp;item_id=2998386355&amp;item_type=album&quot;,&quot;buyer_location&quot;:{&quot;country_code&quot;:&quot;GB&quot;,&quot;is_eu&quot;:true},&quot;fan_location_country&quot;:null}"></div>
+
+
+
+
+
+
+
+<div id="centerWrapper" >
+    <div id="propOpenWrapper">
+        
+
+        
+
+        
+
+    
+    
+    
+
+    
+
+        <div id="pgBd" class="yui-skin-sam">
+            
+
+
+
+
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+        
+        
+        
+    
+    
+    
+    
+    <style type="text/css">
+
+        #propOpenWrapper {
+            background: #FFFFFF;
+        }
+
+        #pgBd {
+            background: #FFFFFF;
+            color: #000000;
+        }
+
+        a.custom-color, #trackInfo a, #trackInfo .buy-link, #tagArea a, #rightColumn a, #name-section a, #indexpage a, .editable-grid a, .featured-grid a, #band-navbar a, #merch-item p a, #merch-item .buy a, #merch-item .buy button, #merch-item .more-merch a, .share-collect-controls a, .share-collect-controls button, .follow-unfollow, .follow-unfollow div, .collected-by a, .subscribe a, .sub a, .video-list a, .sub .main a, .subwelcome a, .artists-grid-name a, .featured-grid-name, .label-welcome .buttons a.new, .themed .label-band-selector a.themeable {
+            color: #000000;
+        }
+
+        .themed .label-band-selector .bands-menu {
+            border: 1px solid #FFFFFF;
+        }
+
+        .themed .label-band-selector .bands-menu,
+        .themed .label-band-selector .bands-menu .menu-artistpic {
+             background: #FFFFFF;
+        }
+
+        .label-welcome h2, .label-welcome p {
+            color: #000000;
+        }
+
+        .label-welcome .buttons a.new {
+            box-shadow: 2px 2px #000000;
+        }
+
+        .label-welcome .buttons a.existing {
+            box-shadow: 2px 2px #000000;
+        }
+
+        .primaryText,
+        #discography a.primaryText,
+        #trackInfo a.title_link,
+        .label-welcome .buttons a.existing {
+            color: #000000;
+        }
+
+        .secondaryText {
+            color: #000000;
+        }
+
+        #band-navbar a:hover {
+            border-color: #000000;
+        }
+
+        #band-navbar a.active {
+            color: #000000;
+            border-color: #000000;
+        }
+
+        .themed .label-band-selector .label {
+            color: #000000;
+        }
+
+        .themed .label-band-selector .tabs > li {
+            border-color: #000000;
+        }
+
+        .themed .label-band-selector a.selected {
+            color: #000000;
+        }
+
+        .themed .label-band-selector .caret {
+            fill: #000000;
+        }
+
+        .themed .label-band-selector .selected .caret {
+            fill: #000000;
+        }
+
+        #trackInfo a.notable {
+            color: red; /* overrides above */
+        }
+    
+        
+        #band-navbar {
+            background-color: #FFFFFF;
+        }
+        
+
+        body {
+            background: #FFFFFF;
+            background-position: left top;
+            background-repeat: repeat;
+            background-image: none;
+        }
+
+        body.has-menubar {
+            background-position: left 48px;
+        }
+        body.has-top-banner {
+            background-position: left 40px;
+        }
+        body.has-menubar.has-top-banner {
+            background-position: left 88px;
+        }
+
+        #pgHd, #pgFt {
+            background-color: #BFBFBF;
+        }    
+
+        .just-icon {
+            color: #FFFFFF;
+        }
+
+        .just-icon-bg {
+            border-right-color: #000000;
+        }
+
+        .collected-by .ellipsis-text {
+            color: #000000;
+        }
+        .collected-by .ellipsis-bg {
+            background-color: #000000;
+        }
+
+        button.subtop,
+        button.subbot {
+            background: #000000;
+            color: #FFFFFF;
+        }
+
+        .sub .includeditems .item a {
+            color: #000000;
+        }
+
+        .sub .post-message-link {
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #000000;
+        }
+
+        .sub ul.tierslist li.tier {
+            border-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .sub button.tierbutton .spacer {
+            background-color: #FFFFFF;
+        }
+
+        ol.sub-navbar li.active,
+        .invertIconography ol.sub-navbar li.active {
+            background-color: #FFFFFF;
+        }
+
+        ol.sub-navbar a {
+            color: #000000;
+        }
+
+        .post-subscribe .button-background {
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #000000;
+        }
+        
+        .post-subscribe .band-link-color,
+        .post-subscribe .message-text button,
+        .post-subscribe .new-feed-stories button,
+        .post-subscribe .new-feed-stories-floater button {
+            color: #000000;
+        }
+
+        .post-subscribe .new-feed-stories-floater button {
+            background-color: #FFFFFF;
+        };
+
+
+    </style>
+    
+
+
+
+<script type="text/javascript">
+
+    
+    
+    
+    
+    var FarbtasticUrls = {
+        js:  "https://s1.bcbits.com/tmpdata/cache/farbtastic_min_e7b800892c199ab738f9680529c0a6d0.js",      
+        css: "https://s1.bcbits.com/tmpdata/cache/farbtastic_480a6f23f1e63d1f16bca062c24752f5.css"     
+    };
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+Control.registerController( "/", {
+    
+    
+    track: function( paths, params, url, event ) {
+        
+        var urlHash = Url.toHash( url );   
+        var tracknum = urlsToTrackNums[ "/track/" + paths[0] + urlHash.hash ];
+    
+        if( tracknum ) {
+            var content = "_lyrics_" + tracknum ;
+            var thingToExpand = "lyrics_div_" + tracknum ;              
+            var parentOfThingToExpand = "lyrics_row_" + tracknum ;
+            
+            Expando.toggle( content, thingToExpand, parentOfThingToExpand );
+            
+        }
+        
+        else {
+            document.location = url;
+        }
+        
+    },
+    
+    
+    
+    video: function(paths, params, url, event) {
+
+        if ( !paths[0] || paths[0] != "t" ) {
+            window.location = url ;
+            return;
+        }
+
+        var caption = null;
+
+        for ( var i = 0; i < TralbumData.trackinfo.length; i++ ) {
+            if ( TralbumData.trackinfo[i].video_id == paths[1] ) {
+                caption = TralbumData.trackinfo[i].video_caption;
+                break;
+            }
+        }
+        tracklistVideoPlayer.doVideo( paths[0], paths[1], caption, true, true );
+    }
+    
+    
+} );
+
+
+var SiteData = {
+    supportEmail: "support@machinefabriek.bandcamp.com"
+};
+
+var BandData = {
+    id: 3314943471,
+    name: "Machinefabriek",
+    fan_email: "post@machinefabriek.nu",
+    account_id: 1661691457,
+    has_discounts: null,
+    image_id: null
+};
+
+var EmbedData = {
+    tralbum_param: { name: "album", value: 2998386355 }, 
+    album_title: "Blank Grey Canvas Sky",
+    linkback: "http://machinefabriek.bandcamp.com" + "/album/blank-grey-canvas-sky",
+    art_id: 4048551747,
+    artist: "Peter Broderick & Machinefabriek",
+    swf_base_url: "https://bandcamp.com"
+};
+
+var FanData = {
+    logged_in: false,
+    name: null,
+    image_id: null
+};
+
+var TralbumData = {
+    // For the curious:
+    // http://bandcamp.com/help/audio_basics#steal
+    // http://bandcamp.com/terms_of_use
+    current: {"featured_track_id":642190696,"release_date":"14 Nov 2009 00:00:00 GMT","minimum_price_nonzero":4.0,"purchase_title":null,"publish_date":"25 Apr 2012 08:21:07 GMT","art_id":4048551747,"new_date":"25 Apr 2012 08:21:07 GMT","about":"This beautiful collaboration features two of the most prolific talents from the current experimental scene, both with reputations of leviathan proportions. For this release, Machinefabriek, based in Rotterdam, The Netherlands, and Peter Broderick, based in Berlin, Germany (although constantly on the road) set out to push each others limits, and to explore new areas within their own creativity.\r\n The resulting album is a delicately crafted one, with Machinefabriek and Broderick virtuosically combining instrumental compositions, drone, and heartfelt soundscapes with song structures and vocals. Or as Peter Broderick himself put it: \"We tried a lot of different things on this album, pushing ourselves to explore new areas... And for me the result is the collection of music I feel most proud of so far.\"","is_set_price":null,"require_email":null,"new_desc_format":1,"auto_repriced":null,"private":null,"download_desc_id":null,"credits":"Music and words by Peter Broderick and Rutger Zuydervelt in 2008 and 2009. Voice on Rain by Susanna Lundgren. Piano on Planes recorded by Adam Selzer at Type Foundry Studio, Portland, OR. Piano on Homecoming recorded by Nils Frahm aat Durton Studio, Berlin. Mastered by James Plotkin.","artist":"Peter Broderick & Machinefabriek","require_email_0":null,"minimum_price":4.0,"killed":null,"id":2998386355,"upc":null,"mod_date":"29 Dec 2014 10:19:06 GMT","audit":0,"type":"album","selling_band_id":3314943471,"set_price":7.0,"download_pref":2,"purchase_url":null,"band_id":3314943471,"title":"Blank Grey Canvas Sky"},
+    is_preorder: null,
+    album_is_preorder: null,
+    album_release_date: "14 Nov 2009 00:00:00 GMT",
+    preorder_count: null,
+    hasAudio: true,
+    art_id: 4048551747,
+    artThumbURL: "https://f1.bcbits.com/img/a4048551747_3.jpg",
+	artFullsizeUrl: "https://f1.bcbits.com/img/a4048551747_10.jpg",
+    trackinfo : [{"alt_link":null,"has_info":false,"video_source_id":null,"track_num":1,"encoding_error":null,"is_downloadable":true,"encodings_id":889481988,"video_mobile_url":null,"album_preorder":false,"encoding_pending":null,"video_id":null,"has_free_download":null,"video_poster_url":null,"is_draft":false,"unreleased_track":false,"private":null,"track_id":642190696,"play_count":0,"duration":324.014,"free_album_download":false,"video_caption":null,"lyrics":null,"title_link":"/track/departure","license_type":1,"id":642190696,"is_capped":false,"sizeof_lyrics":0,"video_featured":null,"streaming":1,"has_lyrics":false,"file":{"mp3-128":"//popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=87841738b5d86e9e39bcf3b78ef68fef&id=642190696&stream=1&ts=1446570008.0"},"video_source_type":null,"title":"Departure"},{"alt_link":null,"has_info":false,"video_source_id":null,"track_num":2,"encoding_error":null,"is_downloadable":true,"encodings_id":322368436,"video_mobile_url":null,"album_preorder":false,"encoding_pending":null,"video_id":null,"has_free_download":null,"video_poster_url":null,"is_draft":false,"unreleased_track":false,"private":null,"track_id":3543534058,"play_count":0,"duration":304.68,"free_album_download":false,"video_caption":null,"lyrics":null,"title_link":"/track/planes","license_type":1,"id":3543534058,"is_capped":false,"sizeof_lyrics":0,"video_featured":null,"streaming":1,"has_lyrics":false,"file":{"mp3-128":"//popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=ea73ca8cfd8b54a15e21b38c7e99faeb&id=3543534058&stream=1&ts=1446570008.0"},"video_source_type":null,"title":"Planes"},{"alt_link":null,"has_info":false,"video_source_id":null,"track_num":3,"encoding_error":null,"is_downloadable":true,"encodings_id":3365265363,"video_mobile_url":null,"album_preorder":false,"encoding_pending":null,"video_id":null,"has_free_download":null,"video_poster_url":null,"is_draft":false,"unreleased_track":false,"private":null,"track_id":1412802230,"play_count":0,"duration":514.787,"free_album_download":false,"video_caption":null,"lyrics":null,"title_link":"/track/kites","license_type":1,"id":1412802230,"is_capped":false,"sizeof_lyrics":0,"video_featured":null,"streaming":1,"has_lyrics":false,"file":{"mp3-128":"//popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=957da8525696b0bf676441c172710155&id=1412802230&stream=1&ts=1446570008.0"},"video_source_type":null,"title":"Kites"},{"alt_link":null,"has_info":true,"video_source_id":null,"track_num":4,"encoding_error":null,"is_downloadable":true,"encodings_id":256789991,"video_mobile_url":null,"album_preorder":false,"encoding_pending":null,"video_id":null,"has_free_download":null,"video_poster_url":null,"is_draft":false,"unreleased_track":false,"private":null,"track_id":1242392084,"play_count":0,"duration":329.067,"free_album_download":false,"video_caption":null,"lyrics":null,"title_link":"/track/rain","license_type":1,"id":1242392084,"is_capped":false,"sizeof_lyrics":0,"video_featured":null,"streaming":1,"has_lyrics":false,"file":{"mp3-128":"//popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=3a5f89af1de43857e412fdfb1f34622b&id=1242392084&stream=1&ts=1446570008.0"},"video_source_type":null,"title":"Rain"},{"alt_link":null,"has_info":false,"video_source_id":null,"track_num":5,"encoding_error":null,"is_downloadable":true,"encodings_id":2145609973,"video_mobile_url":null,"album_preorder":false,"encoding_pending":null,"video_id":null,"has_free_download":null,"video_poster_url":null,"is_draft":false,"unreleased_track":false,"private":null,"track_id":2483221557,"play_count":0,"duration":828.36,"free_album_download":false,"video_caption":null,"lyrics":null,"title_link":"/track/blank-grey","license_type":1,"id":2483221557,"is_capped":false,"sizeof_lyrics":0,"video_featured":null,"streaming":1,"has_lyrics":false,"file":{"mp3-128":"//popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=9cadc41928881303b604b4d996be2111&id=2483221557&stream=1&ts=1446570008.0"},"video_source_type":null,"title":"Blank Grey"},{"alt_link":null,"has_info":false,"video_source_id":null,"track_num":6,"encoding_error":null,"is_downloadable":true,"encodings_id":570045302,"video_mobile_url":null,"album_preorder":false,"encoding_pending":null,"video_id":null,"has_free_download":null,"video_poster_url":null,"is_draft":false,"unreleased_track":false,"private":null,"track_id":1328402001,"play_count":0,"duration":244.72,"free_album_download":false,"video_caption":null,"lyrics":null,"title_link":"/track/homecoming","license_type":1,"id":1328402001,"is_capped":false,"sizeof_lyrics":0,"video_featured":null,"streaming":1,"has_lyrics":false,"file":{"mp3-128":"//popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=2d89628d11a743f681d949413df501fc&id=1328402001&stream=1&ts=1446570008.0"},"video_source_type":null,"title":"Homecoming"}],
+    playing_from : "album page",
+    featured_track_id : 642190696,
+	initial_track_num : null,
+    packages: [],
+    url: "http://machinefabriek.bandcamp.com" + "/album/blank-grey-canvas-sky",
+    defaultPrice: 7.0,
+    freeDownloadPage: null,
+    FREE: 1,
+    PAID: 2,
+    artist: "Peter Broderick & Machinefabriek",
+    item_type: "album",
+    id: 2998386355,
+    last_subscription_item: null,
+    has_discounts: null,
+    is_bonus: null,
+    play_cap_data: {"streaming_limits_enabled":true,"streaming_limit":3},
+    client_id_sig: "ulEWmzr5YpZfoKe2ulN7x57mb3c="
+};
+
+
+
+if ( window.FacebookData ) {
+    var  ti = TralbumData.trackinfo;
+    
+    if ( ti && ti.length ){
+        for( var i = 0; i < ti.length; i++ ) {
+           if (ti[i].title_link) {
+               ti[i].title_link = ( fb_band_url + ti[i].title_link );    
+           }
+                
+        }
+    }
+}
+
+
+var PaymentData = {
+    paymentType: null,
+    paymentDownloadPage: null
+};
+
+var ReferrerToken = null;
+var CurrencyData = {"rates":{"XPF":0.0091991,"TZS":0.000460628,"MOP":0.125261,"BMD":1.0,"PGK":0.34033,"HTG":0.0184713,"BWP":0.0949153,"GMD":0.0256321,"MYR":0.233032,"BIF":0.000641026,"QAR":0.274685,"ISK":0.00779569,"CZK":0.0406476,"TND":0.50121,"EUR":1.1015,"MUR":0.0278621,"KHR":0.000246611,"IQD":0.000841667,"HUF":0.00352696,"GNF":0.000137444,"STD":4.4823e-05,"CNY":0.157868,"UAH":0.0434198,"MAD":0.101821,"KRW":0.000878156,"KZT":0.00355893,"NOK":0.117781,"SLL":0.000266996,"XCD":0.37023,"HRK":0.145117,"YER":0.00464833,"NPR":0.00953342,"SGD":0.714893,"ZAR":0.0724622,"USD":1.0,"LAK":0.000122813,"SHP":1.54197,"NGN":0.00502828,"ETB":0.0475909,"BBD":0.5,"XAF":0.00167897,"SYP":0.00529604,"LRD":0.0118231,"PKR":0.0094847,"GTQ":0.130442,"THB":0.0280861,"MKD":0.0178863,"BTN":0.01526,"PEN":0.304728,"HNL":0.0454414,"AUD":0.715165,"MVR":0.0652884,"BRL":0.258598,"TOP":0.452268,"DKK":0.147665,"CLP":0.00144583,"RUB":0.0156927,"INR":0.0152602,"CVE":0.00998957,"TRY":0.352299,"GBP":1.54197,"MDL":0.0500106,"JPY":0.00828224,"SAR":0.266638,"JMD":0.00836533,"ILS":0.258246,"AED":0.272264,"MMK":0.000783668,"COP":0.000345383,"KES":0.00979826,"ARS":0.104827,"NZD":0.675133,"SBD":0.126434,"ANG":0.55905,"DOP":0.0220223,"ZMK":0.000190365,"SEK":0.117203,"LKR":0.00708928,"LBP":0.00066291,"BHD":2.65109,"KPW":0.001111,"FKP":1.54197,"LYD":0.736655,"BZD":0.501209,"TWD":0.0307382,"XOF":0.00167333,"PAB":1.0,"GYD":0.00484449,"BSD":1.0,"MWK":0.00179904,"BOB":0.144875,"RUP":1.0,"PHP":0.0213507,"TTD":0.157916,"CAD":0.76383,"MRO":0.00307929,"BND":0.714184,"WST":0.392682,"ALL":0.00791102,"HKD":0.12903,"DJF":0.0056294,"IDR":7.3003e-05,"MNT":0.000501714,"UGX":0.000281916,"KYD":1.21488,"KMF":0.00223565,"SCR":0.0780061,"JOD":1.411,"DZD":0.00936594,"MXN":0.0607808,"UYU":0.034011,"NAD":0.0724932,"CRC":0.0018741,"KWD":3.30207,"AWG":0.557621,"PLN":0.258841,"PYG":0.000177828,"SOS":0.00160326,"ZWL":0.00310186,"NIO":0.0363883,"EGP":0.124572,"VUV":0.00898109,"BDT":0.0128327,"CHF":1.01301,"SZL":0.0724925,"LSL":0.0724642,"GIP":1.54197,"OMR":2.59657},"list":["USD","AUD","THB","PAB","ETB","BOB","GBP","CAD","CRC","NIO","CZK","GMD","DKK","MKD","LYD","KWD","JOD","DZD","IQD","BHD","TND","MAD","AED","STD","BMD","TWD","TTD","NAD","ZWL","XCD","GYD","SBD","JMD","BZD","BND","KYD","LRD","BBD","BSD","CVE","EUR","BIF","DJF","XOF","XAF","KMF","GNF","XPF","HTG","PYG","AWG","ANG","HKD","UAH","HUF","ILS","JPY","PGK","LAK","ISK","HRK","MWK","ZMK","MMK","ALL","HNL","SLL","MDL","SZL","TRY","LSL","MXN","NGN","NZD","BTN","NOK","MRO","TOP","MOP","PHP","COP","ARS","DOP","CLP","UYU","PLN","LBP","SYP","SHP","GIP","EGP","FKP","BWP","GTQ","ZAR","BRL","YER","SAR","QAR","OMR","KHR","MYR","RUB","MVR","NPR","MUR","SCR","PKR","INR","LKR","RUP","IDR","SOS","TZS","KES","UGX","SGD","PEN","SEK","CHF","BDT","WST","KZT","MNT","VUV","KPW","KRW","CNY"],"info":{"XPF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"XPF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"TZS":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Shilling","prefix_informal_utf8":"","symbol":"TZS","prefix":"","long":"Shilling","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MOP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pataca","prefix_informal_utf8":"","symbol":"MOP","prefix":"","long":"Pataca","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BMD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"BMD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"PGK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Kina","prefix_informal_utf8":"","symbol":"PGK","prefix":"","long":"Kina","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"HTG":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Gourde","prefix_informal_utf8":"","symbol":"HTG","prefix":"","long":"Gourde","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"GMD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dalasi","prefix_informal_utf8":"","symbol":"GMD","prefix":"","long":"Dalasi","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BWP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pula","prefix_informal_utf8":"","symbol":"BWP","prefix":"","long":"Pula","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MYR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Ringgit","prefix_informal_utf8":"","symbol":"MYR","prefix":"","long":"Ringgit","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BIF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"BIF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"QAR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rial","prefix_informal_utf8":"","symbol":"QAR","prefix":"","long":"Rial","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ISK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Krona","prefix_informal_utf8":"","symbol":"ISK","prefix":"","long":"Krona","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"CZK":{"small_min_price":10.0,"suffix_informal":" Kc","fixed_rate":20,"april_2009":0.0497,"places":2,"plural":"Czech Koruna","prefix_informal_utf8":"","symbol":"CZK","prefix":"","long":"Czech Koruna","paypal":true,"medium_min_price":20.0,"a_dollar":20.0,"prefix_informal":""},"TND":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"TND","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"EUR":{"small_min_price":0.25,"suffix_informal":"","fixed_rate":1,"april_2009":1.3164,"places":2,"plural":"Euros","prefix_informal_utf8":"€","symbol":"EUR","prefix":"&#x20AC;","long":"Euro","paypal":true,"medium_min_price":0.5,"a_dollar":1.0,"prefix_informal":"&#x20AC;"},"MUR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"MUR","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KHR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Riels","prefix_informal_utf8":"","symbol":"KHR","prefix":"","long":"Riels","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"IQD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"IQD","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"HUF":{"small_min_price":100.0,"suffix_informal":" Ft","fixed_rate":200,"april_2009":0.0046,"places":0,"plural":"Hungarian Forint","prefix_informal_utf8":"","symbol":"HUF","prefix":"","long":"Hungarian Forint","paypal":true,"medium_min_price":200.0,"a_dollar":200,"prefix_informal":""},"GNF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"GNF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"STD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dobra","prefix_informal_utf8":"","symbol":"STD","prefix":"","long":"Dobra","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"UAH":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Hryvnia","prefix_informal_utf8":"","symbol":"UAH","prefix":"","long":"Hryvnia","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MAD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dirham","prefix_informal_utf8":"","symbol":"MAD","prefix":"","long":"Dirham","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"CNY":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Yuan Renminbi","prefix_informal_utf8":"","symbol":"CNY","prefix":"","long":"Yuan Renminbi","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"NOK":{"small_min_price":3.0,"suffix_informal":"","fixed_rate":6,"april_2009":0.1504,"places":2,"plural":"Norwegian Kroner","prefix_informal_utf8":"kr ","symbol":"NOK","prefix":"","long":"Norwegian Krone","paypal":true,"medium_min_price":6.0,"a_dollar":7.0,"prefix_informal":"kr "},"SLL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Leone","prefix_informal_utf8":"","symbol":"SLL","prefix":"","long":"Leone","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KRW":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Won","prefix_informal_utf8":"","symbol":"KRW","prefix":"","long":"Won","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KZT":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Tenge","prefix_informal_utf8":"","symbol":"KZT","prefix":"","long":"Tenge","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"XCD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"XCD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"YER":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rial","prefix_informal_utf8":"","symbol":"YER","prefix":"","long":"Rial","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"HRK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Kuna","prefix_informal_utf8":"","symbol":"HRK","prefix":"","long":"Kuna","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"NPR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"NPR","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ZAR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rand","prefix_informal_utf8":"","symbol":"ZAR","prefix":"","long":"Rand","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"USD":{"small_min_price":0.5,"suffix_informal":"","fixed_rate":1,"april_2009":1.0,"places":2,"plural":"US Dollars","slang":["bucks","bones","clams","smackers"],"prefix_informal_utf8":"$","symbol":"USD","prefix":"$","long":"US Dollar","paypal":true,"medium_min_price":1.0,"a_dollar":1.0,"prefix_informal":"$"},"LAK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Kip","prefix_informal_utf8":"","symbol":"LAK","prefix":"","long":"Kip","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"SHP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pound","prefix_informal_utf8":"","symbol":"SHP","prefix":"","long":"Pound","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"SGD":{"small_min_price":0.5,"suffix_informal":"","fixed_rate":1,"april_2009":0.6602,"places":2,"plural":"Singapore Dollars","prefix_informal_utf8":"$","symbol":"SGD","prefix":"$","long":"Singapore Dollar","paypal":true,"medium_min_price":1.0,"a_dollar":1.0,"prefix_informal":"$"},"NGN":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Naira","prefix_informal_utf8":"","symbol":"NGN","prefix":"","long":"Naira","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ETB":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Birr","prefix_informal_utf8":"","symbol":"ETB","prefix":"","long":"Birr","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BBD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"BBD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"XAF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"XAF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"SYP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pound","prefix_informal_utf8":"","symbol":"SYP","prefix":"","long":"Pound","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"LRD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"LRD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"PKR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"PKR","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"GTQ":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Quetzal","prefix_informal_utf8":"","symbol":"GTQ","prefix":"","long":"Quetzal","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"THB":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Baht","prefix_informal_utf8":"","symbol":"THB","prefix":"","long":"Baht","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MKD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Denar","prefix_informal_utf8":"","symbol":"MKD","prefix":"","long":"Denar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BTN":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Ngultrum","prefix_informal_utf8":"","symbol":"BTN","prefix":"","long":"Ngultrum","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"PEN":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Sol","prefix_informal_utf8":"","symbol":"PEN","prefix":"","long":"Sol","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"HNL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Lempira","prefix_informal_utf8":"","symbol":"HNL","prefix":"","long":"Lempira","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"TOP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pa'anga","prefix_informal_utf8":"","symbol":"TOP","prefix":"","long":"Pa'anga","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"AUD":{"small_min_price":0.5,"suffix_informal":"","fixed_rate":1,"april_2009":0.7195,"places":2,"plural":"Australian Dollars","prefix_informal_utf8":"$","symbol":"AUD","prefix":"$","long":"Australian Dollar","paypal":true,"medium_min_price":1.0,"a_dollar":1.0,"prefix_informal":"$"},"MVR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rufiyaa","prefix_informal_utf8":"","symbol":"MVR","prefix":"","long":"Rufiyaa","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BRL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Real","prefix_informal_utf8":"","symbol":"BRL","prefix":"","long":"Real","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"DKK":{"small_min_price":2.5,"suffix_informal":"","fixed_rate":5,"april_2009":0.1767,"places":2,"plural":"Danish Kroner","prefix_informal_utf8":"kr.","symbol":"DKK","prefix":"","long":"Danish Krone","paypal":true,"medium_min_price":5.0,"a_dollar":6.0,"prefix_informal":"kr."},"CLP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Peso","prefix_informal_utf8":"","symbol":"CLP","prefix":"","long":"Peso","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"RUB":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Ruble","prefix_informal_utf8":"","symbol":"RUB","prefix":"","long":"Ruble","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"INR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"INR","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"TRY":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Lira","prefix_informal_utf8":"","symbol":"TRY","prefix":"","long":"Lira","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"CVE":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Escudo","prefix_informal_utf8":"","symbol":"CVE","prefix":"","long":"Escudo","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"GBP":{"small_min_price":0.25,"suffix_informal":"","fixed_rate":1,"april_2009":1.4669,"places":2,"plural":"British Pounds Sterling","slang":["quid","nicker"],"prefix_informal_utf8":"£","symbol":"GBP","prefix":"&#xA3;","long":"British Pound Sterling","paypal":true,"medium_min_price":0.5,"a_dollar":1.0,"prefix_informal":"&#xA3;"},"MDL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Leu","prefix_informal_utf8":"","symbol":"MDL","prefix":"","long":"Leu","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"JPY":{"small_min_price":50.0,"suffix_informal":"","fixed_rate":100,"april_2009":0.01,"places":0,"plural":"Japanese Yen","prefix_informal_utf8":"¥","symbol":"JPY","prefix":"&#x00A5;","long":"Japanese Yen","paypal":true,"medium_min_price":100.0,"a_dollar":100,"prefix_informal":"&#x00A5;"},"SAR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rial","prefix_informal_utf8":"","symbol":"SAR","prefix":"","long":"Rial","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"JMD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"JMD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ILS":{"small_min_price":1.5,"suffix_informal":"","fixed_rate":5,"april_2009":0.2426,"places":2,"plural":"Israeli New Sheqalim","prefix_informal_utf8":"₪","symbol":"ILS","prefix":"&#x20AA;","long":"Israeli New Sheqel","paypal":true,"medium_min_price":3.0,"a_dollar":4.0,"prefix_informal":"&#x20AA;"},"AED":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dirham","prefix_informal_utf8":"","symbol":"AED","prefix":"","long":"Dirham","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MMK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Kyat","prefix_informal_utf8":"","symbol":"MMK","prefix":"","long":"Kyat","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"COP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Peso","prefix_informal_utf8":"","symbol":"COP","prefix":"","long":"Peso","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ARS":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Peso","prefix_informal_utf8":"","symbol":"ARS","prefix":"","long":"Peso","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"NZD":{"small_min_price":0.5,"suffix_informal":"","fixed_rate":1,"april_2009":0.5833,"places":2,"plural":"New Zealand Dollars","prefix_informal_utf8":"$","symbol":"NZD","prefix":"$","long":"New Zealand Dollar","paypal":true,"medium_min_price":1.0,"a_dollar":1.0,"prefix_informal":"$"},"SBD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"SBD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KES":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Shilling","prefix_informal_utf8":"","symbol":"KES","prefix":"","long":"Shilling","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ZMK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Kwacha","prefix_informal_utf8":"","symbol":"ZMK","prefix":"","long":"Kwacha","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ANG":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Guilder","prefix_informal_utf8":"","symbol":"ANG","prefix":"","long":"Guilder","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"DOP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Peso","prefix_informal_utf8":"","symbol":"DOP","prefix":"","long":"Peso","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"LKR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"LKR","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"LBP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pound","prefix_informal_utf8":"","symbol":"LBP","prefix":"","long":"Pound","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BHD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"BHD","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"SEK":{"small_min_price":3.0,"suffix_informal":" kr","fixed_rate":7,"april_2009":0.121,"places":2,"plural":"Swedish Kronor","prefix_informal_utf8":"","symbol":"SEK","prefix":"","long":"Swedish Krona","paypal":true,"medium_min_price":6.0,"a_dollar":8.0,"prefix_informal":""},"KPW":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Won","prefix_informal_utf8":"","symbol":"KPW","prefix":"","long":"Won","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"FKP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pound","prefix_informal_utf8":"","symbol":"FKP","prefix":"","long":"Pound","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"LYD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"LYD","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BZD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"BZD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"XOF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"XOF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"TWD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"TWD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"PAB":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Balboa","prefix_informal_utf8":"","symbol":"PAB","prefix":"","long":"Balboa","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"GYD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"GYD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BSD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"BSD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MWK":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Kwacha","prefix_informal_utf8":"","symbol":"MWK","prefix":"","long":"Kwacha","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BOB":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Boliviano","prefix_informal_utf8":"","symbol":"BOB","prefix":"","long":"Boliviano","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"RUP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"RUP","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"PHP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Peso","prefix_informal_utf8":"","symbol":"PHP","prefix":"","long":"Peso","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"TTD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"TTD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"CAD":{"small_min_price":0.5,"suffix_informal":"","fixed_rate":1,"april_2009":0.817,"places":2,"plural":"Canadian Dollars","prefix_informal_utf8":"$","symbol":"CAD","prefix":"$","long":"Canadian Dollar","paypal":true,"medium_min_price":1.0,"a_dollar":1.0,"prefix_informal":"$"},"MRO":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Ouguiya","prefix_informal_utf8":"","symbol":"MRO","prefix":"","long":"Ouguiya","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BND":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"BND","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ALL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Lek","prefix_informal_utf8":"","symbol":"ALL","prefix":"","long":"Lek","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"HKD":{"small_min_price":2.5,"suffix_informal":"","fixed_rate":8,"april_2009":0.129,"places":2,"plural":"Hong Kong Dollars","prefix_informal_utf8":"$","symbol":"HKD","prefix":"$","long":"Hong Kong Dollar","paypal":true,"medium_min_price":5.0,"a_dollar":8.0,"prefix_informal":"$"},"DJF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"DJF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"WST":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Tala","prefix_informal_utf8":"","symbol":"WST","prefix":"","long":"Tala","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"IDR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupiah","prefix_informal_utf8":"","symbol":"IDR","prefix":"","long":"Rupiah","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"UGX":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Shilling","prefix_informal_utf8":"","symbol":"UGX","prefix":"","long":"Shilling","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MNT":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Tugrik","prefix_informal_utf8":"","symbol":"MNT","prefix":"","long":"Tugrik","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KYD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"KYD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KMF":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Franc","prefix_informal_utf8":"","symbol":"KMF","prefix":"","long":"Franc","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"SCR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rupee","prefix_informal_utf8":"","symbol":"SCR","prefix":"","long":"Rupee","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"JOD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"JOD","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"DZD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"DZD","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"MXN":{"small_min_price":5.0,"suffix_informal":"","fixed_rate":10,"april_2009":0.0764,"places":2,"plural":"Mexican Pesos","prefix_informal_utf8":"$","symbol":"MXN","prefix":"$","long":"Mexican Peso","paypal":true,"medium_min_price":10.0,"a_dollar":12.0,"prefix_informal":"$"},"UYU":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Peso","prefix_informal_utf8":"","symbol":"UYU","prefix":"","long":"Peso","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"NAD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"NAD","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"CRC":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Colon","prefix_informal_utf8":"","symbol":"CRC","prefix":"","long":"Colon","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"KWD":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dinar","prefix_informal_utf8":"","symbol":"KWD","prefix":"","long":"Dinar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"AWG":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Guilder","prefix_informal_utf8":"","symbol":"AWG","prefix":"","long":"Guilder","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"PLN":{"small_min_price":1.5,"suffix_informal":" zl","fixed_rate":3,"april_2009":0.3044,"places":2,"plural":"Polish Zlotych","prefix_informal_utf8":"","symbol":"PLN","prefix":"","long":"Polish Zloty","paypal":true,"medium_min_price":3.0,"a_dollar":3.0,"prefix_informal":""},"PYG":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Guarani","prefix_informal_utf8":"","symbol":"PYG","prefix":"","long":"Guarani","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"SOS":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Shilling","prefix_informal_utf8":"","symbol":"SOS","prefix":"","long":"Shilling","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"ZWL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Dollar","prefix_informal_utf8":"","symbol":"ZWL","prefix":"","long":"Dollar","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"NIO":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Cordoba","prefix_informal_utf8":"","symbol":"NIO","prefix":"","long":"Cordoba","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"EGP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pound","prefix_informal_utf8":"","symbol":"EGP","prefix":"","long":"Pound","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"VUV":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Vatu","prefix_informal_utf8":"","symbol":"VUV","prefix":"","long":"Vatu","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"CHF":{"small_min_price":0.5,"suffix_informal":"","fixed_rate":1,"april_2009":0.8649,"places":2,"plural":"Swiss Francs","prefix_informal_utf8":"Sfr. ","symbol":"CHF","prefix":"","long":"Swiss Franc","paypal":true,"medium_min_price":1.0,"a_dollar":1.0,"prefix_informal":"Sfr. "},"SZL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Lilangeni","prefix_informal_utf8":"","symbol":"SZL","prefix":"","long":"Lilangeni","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"LSL":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Loti","prefix_informal_utf8":"","symbol":"LSL","prefix":"","long":"Loti","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"BDT":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Taka","prefix_informal_utf8":"","symbol":"BDT","prefix":"","long":"Taka","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"GIP":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Pound","prefix_informal_utf8":"","symbol":"GIP","prefix":"","long":"Pound","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""},"OMR":{"small_min_price":1,"suffix_informal":"","fixed_rate":1,"april_2009":1,"places":2,"plural":"Rial","prefix_informal_utf8":"","symbol":"OMR","prefix":"","long":"Rial","paypal":false,"medium_min_price":1,"a_dollar":1,"prefix_informal":""}},"setting":"EUR","current":{"small_min_price":0.25,"suffix_informal":"","fixed_rate":1,"april_2009":1.3164,"places":2,"plural":"Euros","prefix_informal_utf8":"€","symbol":"EUR","prefix":"&#x20AC;","long":"Euro","paypal":true,"medium_min_price":0.5,"a_dollar":1.0,"prefix_informal":"&#x20AC;"}};
+
+$(document).ready(function() {
+
+    if ( window.LogView ) {
+        LogView.show();
+    }
+
+    if ( window.Cart ){
+        Cart.startup();
+    }
+    if ( window.AutoLyrics ) {
+        AutoLyrics.init("_lyrics_", "lyrics_div_", "lyrics_row_", TralbumData.trackinfo.length, 1 );
+    }
+    if ( window.Player ) {
+        Player.init(TralbumData, AlbumPage.onPlayerInit);
+    }
+
+    
+    
+    if ( window.AlbumPage && AlbumPage.videoInit ) {
+        AlbumPage.videoInit();
+    }
+
+    if ( window.TralbumDownload ) {
+        TralbumDownload.init();
+        
+        $(".download-link").click(function(ev) {
+            ev.preventDefault();
+            var isGift = !!$(this).closest('.send-as-gift')[0];
+            TralbumDownload.begin(ev, isGift);
+        });
+    }
+    if ( window.TralbumUpdater ) {
+        TralbumUpdater.init();
+    }
+    if ( window.PackageOrder ) {
+        PackageOrder.init();
+        
+        $(".order_package_link").click(function(ev){
+            ev.preventDefault();
+            // PackageOrder.begin takes two params: the package index and an isGift boolean. previously it only took a 
+            // package index, but this funtion call was passing event as well. if you need the event in begin(), then add
+            // it as an extra param.
+            // dh 12-02-2013
+            var isGift = !!$(this).closest('.send-as-gift')[0];
+            PackageOrder.begin($(this).attr('data-pkg'), isGift);
+        });
+    }
+    
+    Y.util.Event.on("buy-disc-link", "click", function() {Stats.record({kind:"click", click:"buy_disc"}); return true;});
+    Y.util.Event.on("rssFeedAlbum", "click", function() {Stats.record({kind:"click", click:"rss_feed"}); return true;});
+    Y.util.Event.on("rssFeedArtist", "click", function() {Stats.record({kind:"click", click:"rss_feed"}); return true;});
+
+    if ( window.AlbumPage ) {
+        AlbumPage.registerMouseOverForTrackRows();
+    }
+    
+    
+    
+    if ( window.TralbumFans ){
+        TralbumFans.initialize([{"gift_type":null,"featured_track_id":null,"username":"dave_theunsub","item_type":"a","fan_id":119170,"item_id":2998386355,"purchase_date":"15 Oct 2015 19:55:59 GMT","grid":null,"name":"Dave M","image_id":6055873,"thumb":null,"url":"http://bandcamp.com/dave_theunsub","why":null},{"gift_type":null,"featured_track_id":null,"username":"siuyen","item_type":"a","fan_id":322729,"item_id":2998386355,"purchase_date":"29 Jul 2015 17:39:25 GMT","grid":null,"name":"Siuyen Joa","image_id":3520993,"thumb":null,"url":"http://bandcamp.com/siuyen","why":null},{"gift_type":null,"featured_track_id":null,"username":"Vandrare","item_type":"a","fan_id":163341,"item_id":2998386355,"purchase_date":"19 Apr 2015 17:19:16 GMT","grid":null,"name":"Vandrare","image_id":2319382,"thumb":null,"url":"http://bandcamp.com/Vandrare","why":null},{"gift_type":null,"featured_track_id":null,"username":"laurentraboteau","item_type":"a","fan_id":104375,"item_id":2998386355,"purchase_date":"21 Jan 2015 21:22:54 GMT","grid":null,"name":"Laurent Raboteau","image_id":4196602,"thumb":null,"url":"http://bandcamp.com/laurentraboteau","why":null},{"gift_type":null,"featured_track_id":1412802230,"username":"smayor","item_type":"a","fan_id":4056,"item_id":2998386355,"purchase_date":"20 Dec 2014 19:13:40 GMT","grid":null,"name":"S. Mayor","image_id":1341633,"thumb":null,"url":"http://bandcamp.com/smayor","why":null},{"gift_type":null,"featured_track_id":null,"username":"olafvisser","item_type":"a","fan_id":602707,"item_id":2998386355,"purchase_date":"18 Dec 2014 19:20:33 GMT","grid":null,"name":"Olaf Visser","image_id":5587779,"thumb":null,"url":"http://bandcamp.com/olafvisser","why":null},{"gift_type":null,"featured_track_id":1412802230,"username":"rpm","item_type":"a","fan_id":243698,"item_id":2998386355,"purchase_date":"30 Apr 2014 06:38:43 GMT","grid":null,"name":"RayWay","image_id":2805382,"thumb":null,"url":"http://bandcamp.com/rpm","why":null},{"gift_type":null,"featured_track_id":null,"username":"longboat","item_type":"a","fan_id":137143,"item_id":2998386355,"purchase_date":"18 Apr 2014 07:25:10 GMT","grid":null,"name":"The Sinking Longboat","image_id":2824905,"thumb":null,"url":"http://bandcamp.com/longboat","why":null},{"gift_type":null,"featured_track_id":null,"username":"Justalint","item_type":"a","fan_id":15601,"item_id":2998386355,"purchase_date":"19 Mar 2014 03:57:24 GMT","grid":null,"name":"Justa Lint","image_id":1003257,"thumb":null,"url":"http://bandcamp.com/Justalint","why":null},{"gift_type":null,"featured_track_id":3543534058,"username":"adamlack","item_type":"a","fan_id":126125,"item_id":2998386355,"purchase_date":"27 Nov 2013 15:40:04 GMT","grid":null,"name":"Adam Lack","image_id":2095875,"thumb":null,"url":"http://bandcamp.com/adamlack","why":"What can I say? It's Peter Broderick & Machinefabriek. It's great."},{"gift_type":null,"featured_track_id":null,"username":"rikjohnson","item_type":"a","fan_id":2083,"item_id":2998386355,"purchase_date":"26 Nov 2013 02:49:54 GMT","grid":null,"name":"Rik Johnson","image_id":831690,"thumb":null,"url":"http://bandcamp.com/rikjohnson","why":null},{"gift_type":null,"featured_track_id":null,"username":"juliannedouglas","item_type":"a","fan_id":123408,"item_id":2998386355,"purchase_date":"21 Nov 2013 13:02:17 GMT","grid":null,"name":"Joulz","image_id":2120108,"thumb":null,"url":"http://bandcamp.com/juliannedouglas","why":null},{"gift_type":null,"featured_track_id":null,"username":"pierreguesde","item_type":"a","fan_id":479821,"item_id":2998386355,"purchase_date":"18 Nov 2013 18:19:15 GMT","grid":null,"name":"Pierre Guesde","image_id":4688006,"thumb":null,"url":"http://bandcamp.com/pierreguesde","why":null},{"gift_type":null,"featured_track_id":null,"username":"AfroZombie","item_type":"a","fan_id":115181,"item_id":2998386355,"purchase_date":"15 Oct 2013 02:05:10 GMT","grid":null,"name":"Afro Zombie","image_id":2057742,"thumb":null,"url":"http://bandcamp.com/AfroZombie","why":null},{"gift_type":null,"featured_track_id":null,"username":"davidmitrovic","item_type":"a","fan_id":56797,"item_id":2998386355,"purchase_date":"05 Oct 2013 03:34:02 GMT","grid":null,"name":"David Mitrovic","image_id":4247564,"thumb":null,"url":"http://bandcamp.com/davidmitrovic","why":null},{"gift_type":null,"featured_track_id":null,"username":"thermafrost","item_type":"p","fan_id":39101,"item_id":399678610,"purchase_date":"20 Jul 2013 21:14:38 GMT","grid":null,"name":"Theotime lefebvre","image_id":1253233,"thumb":null,"url":"http://bandcamp.com/thermafrost","why":null},{"gift_type":null,"featured_track_id":null,"username":"seadefenses","item_type":"a","fan_id":55292,"item_id":2998386355,"purchase_date":"12 Sep 2012 01:06:13 GMT","grid":null,"name":"Jesse Blayney","image_id":1409025,"thumb":null,"url":"http://bandcamp.com/seadefenses","why":null},{"gift_type":null,"featured_track_id":null,"username":"roelofjan","item_type":"p","fan_id":135311,"item_id":399678610,"purchase_date":"28 Jun 2012 08:54:49 GMT","grid":null,"name":"Roelof Jan Minneboo","image_id":2149026,"thumb":null,"url":"http://bandcamp.com/roelofjan","why":null},{"gift_type":null,"featured_track_id":null,"username":"marcnoble","item_type":"p","fan_id":46517,"item_id":399678610,"purchase_date":"17 Jun 2012 22:19:16 GMT","grid":null,"name":"Marc Noble","image_id":5172858,"thumb":null,"url":"http://bandcamp.com/marcnoble","why":null},{"gift_type":null,"featured_track_id":null,"username":"peterhoogveld","item_type":"p","fan_id":6990,"item_id":399678610,"purchase_date":"26 May 2012 09:21:16 GMT","grid":null,"name":"peter hoogveld","image_id":880864,"thumb":null,"url":"http://bandcamp.com/peterhoogveld","why":null}], null, null, true, null);
+    }
+    
+    
+    if( window.Trackpipe ) {
+        setTimeout(function(){
+            Trackpipe.maybeDoTralbumActions();
+        }, 1);
+    }
+
+    
+    if ( window.BandFollow )
+        BandFollow.init({"tralbum_id":2998386355,"tralbum_type":"a"});
+    
+
+
+
+    
+    if ( window.Share )
+        Share.initPanel(false, 1, "http://machinefabriek.bandcamp.com/album/blank-grey-canvas-sky");
+
+
+    if ( window.FanControls ) {
+        FanControls.init({"show_collect":true});
+    }
+
+
+
+
+    $("a.has-video").click(function(ev){
+        ev.preventDefault();
+        if( ev.metaKey ){
+            Control.invokeAction(ev.srcElement.href, ev);
+        }
+    });   
+
+
+});
+
+</script>
+
+
+
+<div id="customHeaderWrapper">
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="customHeader">
+    
+        <div class="desktop-header">
+            <a href="http://machinefabriek.bandcamp.com"><img src="https://f1.bcbits.com/img/0005874078_100.png" width="975" height="180"></a>
+            
+        </div>
+    
+    
+        <div class="phone-header">
+            <a href="http://machinefabriek.bandcamp.com"><img src="https://f1.bcbits.com/img/0005192464_120.jpg"></a>
+        </div>
+    
+    </div>
+
+
+
+
+
+<div class="band-navbar-wrapper flex">
+	<ol id="band-navbar">
+	    
+            <li>
+                
+                <a href="/music" class="primaryText active">
+                    Downloads
+                    
+                </a>
+            </li>
+	    
+            <li>
+                
+                <a href="/merch" >
+                    Goods
+                    
+                </a>
+            </li>
+	    
+	    
+	</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <div class="bannercontainer">
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+<div class="trackView leftMiddleColumns has-art"
+     itemscope itemtype="http://schema.org/MusicAlbum">
+    
+    <div id="name-section" >
+        
+        <h2 class="trackTitle" itemprop="name">
+            Blank Grey Canvas Sky
+            
+        </h2>
+        
+
+        <h3 style="margin:0px;">by
+            <span itemprop="byArtist"> 
+                <a href="http://machinefabriek.bandcamp.com">Peter Broderick &amp; Machinefabriek</a>
+            </span>
+        </h3>
+
+    
+
+    
+    </div>
+    <div class="middleColumn">
+        
+        
+
+        <div id="tralbumArt">
+        
+            
+                
+            
+		<a class="popupImage" href="https://f1.bcbits.com/img/a4048551747_10.jpg">
+            <img src="https://f1.bcbits.com/img/a4048551747_16.jpg" alt="Blank Grey Canvas Sky cover art" itemprop="image">
+        </a>
+        
+        </div>
+
+        
+            <div class="share-panel-wrapper-desktop"></div>            
+            
+                <div class="collected-by tralbum collectors">
+    <div class="message">
+        supported by
+    </div>
+    <div class="deets">
+    </div>
+</div>
+
+            
+        
+    </div>
+
+    <div id="trackInfo" class="leftColumn">
+        <div id="trackInfoInner">       
+            
+            
+            
+                <div class="inline_player "><table>
+    <tr>
+        <td class="play_cell" rowspan="2">
+            <a><div class="playbutton"></div></a>
+        </td>
+        <td class="track_cell" colspan="3">
+            <div class="track_info">
+                <span class="title-section hiddenelem">
+                    <a class="title_link primaryText" href="#"><span class="title"></span></a>
+                </span>
+                <span class="time secondaryText hiddenelem">
+                    <span class="time_elapsed"></span>
+                    /
+                    <span class="time_total"></span>
+                </span>
+                <span class="message hiddenelem"></span>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="progbar_cell">
+            <div class="progbar">
+                <div class="progbar_empty">
+                    <div class="progbar_fill"></div>
+                    <div class="thumb"></div>
+                </div>
+            </div>
+        </td>
+        <td class="prev_cell">
+            <a><div class="prevbutton hiddenelem"></div></a>
+        </td>
+        <td class="next_cell">
+            <a><div class="nextbutton hiddenelem"></div></a>
+        </td>
+    </tr>
+</table>
+</div>
+            
+        
+            
+            
+            
+            <ul class="tralbumCommands">
+                
+                 
+
+                
+                    
+
+
+<li class="buyItem">
+    <h3 class="hd">
+        <button class='download-link buy-link' type="button">
+          <span class="buyItemPackageTitle primaryText">Digital Album</span>
+        </button>
+    </h3>
+    
+    
+        <div class="bd">
+            Includes unlimited streaming via the free Bandcamp app, plus high-quality download in MP3, FLAC and more.
+            
+        </div>
+        
+        <script type="text/javascript">$(".buyItem .bd").last().bcTruncate(TruncateProfile.get("buyItem"))</script>
+    
+
+    
+
+    <h4 class="ft compound-button">
+        
+            <button class='download-link buy-link' type="button">Buy Now</button>
+        
+
+        
+        
+            <span class="base-text-color">&nbsp;&#x20AC;4</span>
+            <span class="buyItemExtra secondaryText">EUR</span>
+            <span class="buyItemExtra buyItemNyp secondaryText">&nbsp;or more</span>
+        
+    </h4>
+    
+    <h4 class="ft compound-button send-as-gift">
+        <button type="button" class="download-link buy-link">Send as Gift</button>&nbsp;
+    </h4>
+    
+    
+</li>
+
+
+
+
+                 
+
+                
+                    
+                
+
+                
+                    
+                                 
+
+                 
+
+                
+                
+                    <li class="share-link-container new-share-collect">
+                        <h3><button id="share-link" class="compound-button"><span id="share-link-share">Share</span><span id="share-link-embed"> / Embed</span></button></h3>
+                    </li>
+                
+            </ul>
+            
+ 
+            <table class="track_list track_table" id="track_table">
+                
+                                
+                
+                
+                    
+                    <tr class="track_row_view linked" rel="tracknum=1"
+                        itemprop="tracks" itemscope itemtype="http://www.schema.org/MusicRecording">
+                        <td class="play-col"><a><div class="play_status disabled"></div></a></td>
+<td class="track-number-col"><div class="track_number secondaryText">1.</div></td>
+<td class="title-col">
+    <div class="title">
+    
+        <a href="/track/departure" itemprop="url"><span itemprop="name">Departure</span></a>
+    
+    
+    
+    
+    
+        <span class="time secondaryText">
+        
+            05:24
+        
+        </span>
+        <meta itemprop="duration" content="P00H05M24S"/>
+    
+    
+    
+
+    </div> 
+</td>
+
+<td class="info-col"><div class="info_link"><a href="/track/departure"></a></div></td>
+<td class="download-col">
+<div class="dl_link">
+
+<a href="/track/departure?action=download">
+    
+        buy track
+    
+</a>
+
+</div></td>
+
+                    </tr>
+                
+                
+                
+                
+                    
+                    <tr class="track_row_view linked" rel="tracknum=2"
+                        itemprop="tracks" itemscope itemtype="http://www.schema.org/MusicRecording">
+                        <td class="play-col"><a><div class="play_status disabled"></div></a></td>
+<td class="track-number-col"><div class="track_number secondaryText">2.</div></td>
+<td class="title-col">
+    <div class="title">
+    
+        <a href="/track/planes" itemprop="url"><span itemprop="name">Planes</span></a>
+    
+    
+    
+    
+    
+        <span class="time secondaryText">
+        
+            05:04
+        
+        </span>
+        <meta itemprop="duration" content="P00H05M04S"/>
+    
+    
+    
+
+    </div> 
+</td>
+
+<td class="info-col"><div class="info_link"><a href="/track/planes"></a></div></td>
+<td class="download-col">
+<div class="dl_link">
+
+<a href="/track/planes?action=download">
+    
+        buy track
+    
+</a>
+
+</div></td>
+
+                    </tr>
+                
+                
+                
+                
+                    
+                    <tr class="track_row_view linked" rel="tracknum=3"
+                        itemprop="tracks" itemscope itemtype="http://www.schema.org/MusicRecording">
+                        <td class="play-col"><a><div class="play_status disabled"></div></a></td>
+<td class="track-number-col"><div class="track_number secondaryText">3.</div></td>
+<td class="title-col">
+    <div class="title">
+    
+        <a href="/track/kites" itemprop="url"><span itemprop="name">Kites</span></a>
+    
+    
+    
+    
+    
+        <span class="time secondaryText">
+        
+            08:34
+        
+        </span>
+        <meta itemprop="duration" content="P00H08M34S"/>
+    
+    
+    
+
+    </div> 
+</td>
+
+<td class="info-col"><div class="info_link"><a href="/track/kites"></a></div></td>
+<td class="download-col">
+<div class="dl_link">
+
+<a href="/track/kites?action=download">
+    
+        buy track
+    
+</a>
+
+</div></td>
+
+                    </tr>
+                
+                
+                
+                
+                    
+                    <tr class="track_row_view linked" rel="tracknum=4"
+                        itemprop="tracks" itemscope itemtype="http://www.schema.org/MusicRecording">
+                        <td class="play-col"><a><div class="play_status disabled"></div></a></td>
+<td class="track-number-col"><div class="track_number secondaryText">4.</div></td>
+<td class="title-col">
+    <div class="title">
+    
+        <a href="/track/rain" itemprop="url"><span itemprop="name">Rain</span></a>
+    
+    
+    
+    
+    
+        <span class="time secondaryText">
+        
+            05:29
+        
+        </span>
+        <meta itemprop="duration" content="P00H05M29S"/>
+    
+    
+    
+
+    </div> 
+</td>
+
+<td class="info-col"><div class="info_link"><a href="/track/rain">info</a></div></td>
+<td class="download-col">
+<div class="dl_link">
+
+<a href="/track/rain?action=download">
+    
+        buy track
+    
+</a>
+
+</div></td>
+
+                    </tr>
+                
+                
+                
+                
+                    
+                    <tr class="track_row_view linked" rel="tracknum=5"
+                        itemprop="tracks" itemscope itemtype="http://www.schema.org/MusicRecording">
+                        <td class="play-col"><a><div class="play_status disabled"></div></a></td>
+<td class="track-number-col"><div class="track_number secondaryText">5.</div></td>
+<td class="title-col">
+    <div class="title">
+    
+        <a href="/track/blank-grey" itemprop="url"><span itemprop="name">Blank Grey</span></a>
+    
+    
+    
+    
+    
+        <span class="time secondaryText">
+        
+            13:48
+        
+        </span>
+        <meta itemprop="duration" content="P00H13M48S"/>
+    
+    
+    
+
+    </div> 
+</td>
+
+<td class="info-col"><div class="info_link"><a href="/track/blank-grey"></a></div></td>
+<td class="download-col">
+<div class="dl_link">
+
+<a href="/track/blank-grey?action=download">
+    
+        buy track
+    
+</a>
+
+</div></td>
+
+                    </tr>
+                
+                
+                
+                
+                    
+                    <tr class="track_row_view linked" rel="tracknum=6"
+                        itemprop="tracks" itemscope itemtype="http://www.schema.org/MusicRecording">
+                        <td class="play-col"><a><div class="play_status disabled"></div></a></td>
+<td class="track-number-col"><div class="track_number secondaryText">6.</div></td>
+<td class="title-col">
+    <div class="title">
+    
+        <a href="/track/homecoming" itemprop="url"><span itemprop="name">Homecoming</span></a>
+    
+    
+    
+    
+    
+        <span class="time secondaryText">
+        
+            04:04
+        
+        </span>
+        <meta itemprop="duration" content="P00H04M04S"/>
+    
+    
+    
+
+    </div> 
+</td>
+
+<td class="info-col"><div class="info_link"><a href="/track/homecoming"></a></div></td>
+<td class="download-col">
+<div class="dl_link">
+
+<a href="/track/homecoming?action=download">
+    
+        buy track
+    
+</a>
+
+</div></td>
+
+                    </tr>
+                
+                
+                
+            </table>
+            
+            
+            <h3 class="about-label">about</h3>
+            <div class="tralbumData tralbum-about" itemprop="description">This beautiful collaboration features two of the most prolific talents from the current experimental scene, both with reputations of leviathan proportions. For this release, Machinefabriek, based in Rotterdam, The Netherlands, and Peter Broderick, based in Berlin, Germany (although constantly on the road) set out to push each others limits, and to explore new areas within their own creativity.<br>
+ The resulting album is a delicately crafted one, with Machinefabriek and Broderick virtuosically combining instrumental compositions, drone, and heartfelt soundscapes with song structures and vocals. Or as Peter Broderick himself put it: &quot;We tried a lot of different things on this album, pushing ourselves to explore new areas... And for me the result is the collection of music I feel most proud of so far.&quot;</div>
+            
+            <script type="text/javascript">$(".tralbum-about").last().bcTruncate(TruncateProfile.get("tralbum_long"))</script>
+            
+                      
+            <h3 class="credits-label">credits</h3>
+            <div class="tralbumData tralbum-credits">
+            
+                released November 14, 2009
+                <meta itemprop="datePublished" content="20091114"/>
+            
+            <br><br>Music and words by Peter Broderick and Rutger Zuydervelt in 2008 and 2009. Voice on Rain by Susanna Lundgren. Piano on Planes recorded by Adam Selzer at Type Foundry Studio, Portland, OR. Piano on Homecoming recorded by Nils Frahm aat Durton Studio, Berlin. Mastered by James Plotkin.
+            </div>
+            
+            <script type="text/javascript">$(".tralbum-credits").last().bcTruncate(TruncateProfile.get("tralbum_long"))</script>
+            
+            
+    
+        <h3 class="tags-label">tags</h3>
+        <div class="tralbumData tralbum-tags">
+           <span class="tags-inline-label">tags:</span> 
+           <a class="tag" href="https://bandcamp.com/tag/experimental" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >experimental</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/machinefabriek" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >machinefabriek</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/peter-broderick" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >peter broderick</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/susanna-lundgren" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >susanna lundgren</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/ambient" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >ambient</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/electronica" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >electronica</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/experimental-electronic" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >experimental electronic</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/field-recordings" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >field recordings</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/noise" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >noise</a>
+        
+           <a class="tag" href="https://bandcamp.com/tag/rotterdam" itemprop="keywords" rel="nofollow"
+                onmousedown="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                onclick="if (this.href.indexOf('?')==-1) this.href += '?from=tralbum&artist=3314943471';"
+                >Rotterdam</a>
+        </div>
+    
+
+
+			
+<h3 class="license-label">license</h3>
+<div id="license" class="info license">
+
+	<span class="cc-icons commercial"></span>all rights reserved
+
+
+
+</div>
+
+    		
+    
+    <h3 class="feed-label">feeds</h3>
+    <div class="tralbumData tralbum-feed">
+        <img src="https://s1.bcbits.com/img/icon_feed.gif">
+        feeds for <a id="rssFeedAlbum" href="http://machinefabriek.bandcamp.com/feed/album/blank-grey-canvas-sky" target="_blank">this album</a>, 
+        <a id="rssFeedArtist" href="http://machinefabriek.bandcamp.com/feed" target="_blank">this artist</a>
+    </div>
+
+        </div>
+    </div>
+    
+    
+    
+    
+</div>
+
+
+
+<div id="rightColumn" class="rightColumn"
+     itemscope itemtype="http://schema.org/MusicGroup">
+
+
+
+<script type="text/javascript">if (Cart) { Cart.contentsScriptLoad(); }</script>
+
+
+<meta itemprop="name" content="Peter Broderick &amp; Machinefabriek"/>
+
+
+
+
+
+
+
+<div id="bio-container" data-bind="css: {'ko-ready': $data}">
+    <h3 class="title bio-label hiddenAccess">about</h3>
+    
+        
+    
+
+    <p id="band-name-location">
+        <span class="title">Machinefabriek</span>
+        <span class="location secondaryText">Rotterdam, Netherlands</span>
+    </p>
+
+    <div id="following-actions">
+        
+        <button type="button" class="follow-unfollow compound-button" style="visibility: hidden;">
+            <div>placeholder</div>
+        </button>
+    </div>
+
+    
+        <div class="signed-out-artists-bio-text">
+            
+        </div>
+    
+    
+    
+        <ol id="band-links">
+            
+                <li><a target="_blank" href="http://www.machinefabriek.nu" itemprop="url">machinefabriek.nu</a></li>
+            
+                <li><a target="_blank" href="https://www.facebook.com/Machinefabriek" itemprop="url">Facebook</a></li>
+            
+        </ol>
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+
+
+
+
+
+    
+    
+    
+
+
+    
+    
+     
+    
+    
+     
+        
+        
+    
+
+    
+
+
+
+<div id="discography" class="sidebar" > 
+<h3 class="title"><a href="/music" class="link-and-title primaryText">discography</a></h3>
+<ul>
+    
+        
+        <li>
+        
+            <div>
+                <a class="thumbthumb " href="/album/stuip-staar">
+            
+                <img src="https://f1.bcbits.com/img/a2455653880_7.jpg">
+            
+            
+                </a>
+            </div>
+            
+            <div class="trackTitle"><a href="/album/stuip-staar">Stuip&#8203;/&#8203;Staar</a></div>
+            
+            <div class="trackYear secondaryText">Sep 2015</div>
+            
+        </li>
+    
+        
+        <li>
+        
+            <div>
+                <a class="thumbthumb " href="/album/doze-ru-nas">
+            
+                <img src="https://f1.bcbits.com/img/a3236767528_7.jpg">
+            
+            
+                </a>
+            </div>
+            
+            <div class="trackTitle"><a href="/album/doze-ru-nas">Doze Ruínas</a></div>
+            
+            <div class="trackYear secondaryText">Sep 2015</div>
+            
+        </li>
+    
+        
+        <li>
+        
+            <div>
+                <a class="thumbthumb " href="/album/compendium-collected-singles-and-remixes">
+            
+                <img src="https://f1.bcbits.com/img/a0616036089_7.jpg">
+            
+            
+                </a>
+            </div>
+            
+            <div class="trackTitle"><a href="/album/compendium-collected-singles-and-remixes">Compendium (collected singles and remixes)</a></div>
+            
+            <div class="trackYear secondaryText">Jun 2015</div>
+            
+        </li>
+    
+        
+        <li class="gt3">
+        
+            <div>
+                <a class="thumbthumb " href="/album/mir">
+            
+                <img src="https://f1.bcbits.com/img/a1732783651_7.jpg">
+            
+            
+                </a>
+            </div>
+            
+            <div class="trackTitle"><a href="/album/mir">MIR</a></div>
+            
+            <div class="trackYear secondaryText">Jun 2015</div>
+            
+        </li>
+    
+</ul>
+
+<div class="showMore" ><a  href="/music">more releases...</a></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="contact-help" class="title">contact / help</h3>
+
+
+<p><a href="mailto:post%40machinefabriek.nu" title="Send an email to Machinefabriek">Contact Machinefabriek</a></p>
+
+
+
+<p><a href="/downloading?from=tralbum_downloading" target="_blank">Streaming and <span id="sidebar-contact-label-break"><br></span>Download help</a></p>
+
+
+
+<p><a href="https://machinefabriek.bandcamp.com/policies">Shipping and returns</a></p>
+
+
+
+<p><a href="https://machinefabriek.bandcamp.com/yum">Redeem code</a></p>
+
+
+
+
+
+
+</div>
+
+
+
+<script>
+if ( !window.ReferrerToken ) { window.ReferrerToken = 'nilZ0a2998386355x1446570007'; } 
+</script>
+
+
+
+<script type= "text/javascript">
+ var urlsToTrackNums = {};
+</script>
+
+
+
+
+
+            <div style="clear:both"></div>
+        </div>
+        
+            <div id="pgFt">
+            
+                <div id="pgFt-inner" class="pgft-desktop">
+
+    <div id="footer-logo-wrapper">
+    
+        <a id="footer-logo" href="https://bandcamp.com?from=logo" ><span class="hiddenAccess">Bandcamp</span></a>
+    
+        <span class="webapp-selector-ui" style="display:none"></span>
+    </div>
+    
+    <ul id="legal" class="horizNav">
+        
+        <li id="login"><a href="https://bandcamp.com/login">log in</a></li>
+        
+        <li><a href="https://bandcamp.com/terms_of_use">terms of use</a></li>
+        <li><a href="https://bandcamp.com/privacy">privacy</a></li>
+        <li><a href="https://bandcamp.com/copyright">copyright policy</a></li>
+        
+            <li id="site-status"><a href="http://twitter.com/bandcampstatus" target="_blank">status</a></li>
+        
+        
+        
+        <li class="view-switcher desktop"><a>switch to mobile view</a></li>
+        
+    </ul>
+    <span class="static-content">&nbsp;</span>
+
+</div>
+
+
+            
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+<script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/global_foot1_bundle_min_8b2bf6a01ddc3dfcaf1721437ba9dd72.js"></script>
+<script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/global_foot2_bundle_min_b9970e197e4b8af6c87a20d300f1b315.js"></script>
+
+
+
+
+<script type="text/javascript">
+    
+    JSLoader.writeScriptTags( "foot" );
+    
+</script>    
+
+
+
+<script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/tralbum_bundle_min_931580851f24ece429fff486d326c9a6.js"></script>
+<script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/tralbum_templates_bundle_min_f80bf127e3a91f564a7e4c3ecfa7ad89.js"></script>
+<script type="text/javascript" src="https://s1.bcbits.com/tmpdata/cache/jquery_lazyload_bundle_min_e16b495dfa3434859bb3fa0026e3a292.js"></script>
+
+<script type="text/javascript">
+    
+    
+
+    Dom.initActiveElement();
+</script>
+
+
+
+<script type="text/javascript">
+    (function() {
+
+        Y.util.Event.onDOMReady( function() {
+            Control.handleDomReady();
+            FieldHints.init();
+            Dom.scrollToParamElt();
+        });
+
+    })();
+    
+</script>
+
+
+
+<script type="text/javascript">
+if (!isDebug) {
+    var _gaq = _gaq || [];
+    var _qevents = _qevents || [];
+
+    (function() {
+        var doc = document, isHttps = ('https:' == doc.location.protocol);
+        function loadScript(src) {
+            var n = doc.createElement('script'), s = doc.getElementsByTagName('script')[0]; 
+            n.type = 'text/javascript'; n.async = true; n.src = src;
+            s.parentNode.insertBefore(n, s);            
+        }
+
+        
+        _gaq.push(
+            ['_setAccount', 'UA-4189134-2'],
+            ['_setDomainName', 'bandcamp.com'], 
+            ['_setAllowAnchor', true],
+            ['_trackPageview']
+        
+        );
+        loadScript((isHttps ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+
+        
+        _qevents.push({qacct:'p-0207-dhLCDgvg'});
+        loadScript((isHttps ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js');
+    })();
+}
+</script>
+<noscript>
+    <div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-0207-dhLCDgvg.gif" border="0" height="1" width="1" alt=""></div>
+</noscript>
+ 
+
+</body>
+</html>
+<!-- bender04-4 Tue Nov 03 17:00:07 UTC 2015 -->
+<!-- album id 2998386355 -->
