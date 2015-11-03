@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang=en><meta charset=utf-8><meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 403 (Forbidden)!!1</title><style>*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><a href=//www.google.com/><span id=logo aria-label=Google></span></a><p><b>403.</b> <ins>That’s an error.</ins><p>Your client does not have permission to get URL <code>/search?q=site%3Abandcamp.com%2Falbum+asdfasdfasdfasdfasdfasdf</code> from this server.  (Client IP address: 82.38.157.208)<br><br>
+Please see Google's Terms of Service posted at http://www.google.com/terms_of_service.html
+<BR><BR><P>If you believe that you have received this response in error, please <A HREF="http://www.google.com/support/bin/request.py?contact_type=user&hl=en">report</A> your problem. However, please make sure to take a look at our Terms of Service (http://www.google.com/terms_of_service.html). In your email, please send us the <b>entire</b> code displayed below.  Please also send us any information you may know about how you are performing your Google searches-- for example, "I'm using the Opera browser on Linux to do searches from home.  My Internet access is through a dial-up account I have with the FooCorp ISP." or "I'm using the Konqueror browser on Linux to search from my job at myFoo.com.  My machine's IP address is 10.20.30.40, but all of myFoo's web traffic goes through some kind of proxy server whose IP address is 10.11.12.13."  (If you don't know any information like this, that's OK.  But this kind of information can help us track down problems, so please tell us what you can.)</P><P>We will use all this information to diagnose the problem, and we'll hopefully have you back up and searching with Google again quickly!</P>
+<P>Please note that although we read all the email we receive, we are not always able to send a personal response to each and every email.  So don't despair if you don't hear back from us!</P>
+<P>Also note that if you do not send us the <b>entire</b> code below, <i>we will not be able to help you</i>.</P><P>Best wishes,<BR>The Google Team</BR></P><BLOCKQUOTE>/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/<BR>
+kJWryzfnQFXEtP2tJBu3Md5Qj2PMJUOX4vVoYweB2ArqQp6Xk<BR>
+BdQpuQ7aikhAsRdEWORZ9XHL9uaB63Nr95qoTN4BvgDyCF3M3<BR>
+gG-APIIXf1Byin6FORp5ki3vp-kzRGjrBTseg6uGBypibuTNG<BR>
+SeMTb-8bOSPglBzLAIJQbJMosoeQf7tIDBRQs-s2AoAiFKlGN<BR>
+yXaTCO8GfhXxBt5JYAbOb8oqVyeqXHiiegvS3Rb3fhWC8ABcl<BR>
+9gwnPMBejraU_xbwSzoWNx2z7SfDmbPnSjwrXexXsC_fiMhp8<BR>
+s1LQK90rg5hYAgbLmoVjMHMZ0WeRoay-XoB1oKQzff-nnkAE9<BR>
+kSrGgwRLZnAiix5tiFpno4ngQ4pLS6kADz7r5p6edsdlXEjHV<BR>
+NhwWqKP2kfQqYZPhMPh0NshW4_QH3GNukw5fsklFynA0JQc8_<BR>
+An9q6DsC7nfgyjubl6J7ghNRh3CLMujWpuFAvg9-5U5AbYeuo<BR>
+3VBHoB8d0s2KvLtTFKkk71S_V1CqT_kHfjLZ6uXywhLIJZ23s<BR>
+ZyO7OavlSi0lgoS_YngKAIH8GqFHvTKssaHZDZSzBIcqTbmRJ<BR>
+iABOxqx8szguMcjoQ0jptuA4awwLB5xiEgyydnu3k_qXdIOX0<BR>
+3QvpwEK_af_2VhbGfFjQPK0R-_8DtBE5k7_MwgPR5O-sT0ntF<BR>
+MuyBj_J7-7z5A0cmpymZLZbW_tqwQxzoej7tIaq8--xRQIDge<BR>
+kqQebVt-b7muVyw3NbP1g__F7wx0HIA8Ra29S1j1epNSCZT30<BR>
+rZHnxlNnnkoxQvWoJpMw3Imfkqo8GaQ8_q0v4C6gjHm1sJVXG<BR>
+s8i2RC8SRwbt_LB6rbNfXMtq1zsmFaF3E_oJ4HpcbtCn0tYEv<BR>
+yaoB0m5h_6I2DPyv_y3VnftLJNxh0KS_WpH0s3HYlzAoEo2_-<BR>
+mf0-OAI9r2tncrNAps2j-5qoEwSZW2aAof2b957zS4Qs1bJDf<BR>
+5v7BaoC41c9Vt3OJ-vALhGCPhKMkfxfMgxfsjTt-N5YvUc7fB<BR>
+ETYiGZOlwPp4Xka7D9AWfc9mCa2tYTev90OM7ZrimyIoZCBst<BR>
+VoCyqxKqc8xNyW-q8tCwIhHwwVrESdIYq-6nfNY3Y-byf4Rka<BR>
+-xegnVgIGPPnlhdv4JsL4x56vPwleb91W1XX4kvJEB5vCw5U-<BR>
+7QbAAnVtOHW37IyIJFiNTCWJc8YoAjuJTCCoAG_BUgzoKcXeV<BR>
+vG855GetndTMGlG0q5i9TyApRk6lfpXm5viyzWRMO3VJJHeWt<BR>
+geXBQgqASDhtFYc8sPA9nCom5lGmdERojTIT66IB6f6qdrtLI<BR>
+nvDA5eqzyPqyZKiKzG73jbTck1f5E0ETet9wJ8mLUuVsp8kGn<BR>
+0lxWRPuiwett9FmmVay2pR2FKbIDfv9VfKBEsp56k9_gByg1z<BR>
+tYV43JFfW7NmiPIoF7irfBa40zAcJfRmbAKIia-STV1ywlHj5<BR>
+PbByqAfVH8gSgLfdbWUMR4gsncPGqqUHILmm10tjxSTz2kJZB<BR>
+rHNVMuXNwubY-hlJJvJRu5pmIlwVnSMyKYJbGAcT2y7Q=<BR>
++/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+/+<BR></BLOCKQUOTE>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+  <ins>That’s all we know.</ins>

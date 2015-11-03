@@ -23,7 +23,7 @@ my $test_results = [
 ];
 
 plugin 'MuSAPI::Plugin::FakeCache' => $test_results;
-plugin 'MuSAPI::Plugin::Query::Bandcamp::CustomSearchAPI';
+plugin 'MuSAPI::Plugin::Query::CustomSearch::Bandcamp';
 
 get '/' => sub {
     my $self = shift;
@@ -31,7 +31,7 @@ get '/' => sub {
         my $json = shift;
         return MuSAPI::Controller::Search::_render_result($self, $json);
     };
-    $self->query_bandcamp_cs($self->param('q'), $cb);
+    $self->query_customsearch_bandcamp($self->param('q'), $cb);
     $self->render_later;
 };
 

@@ -1,10 +1,10 @@
-package MuSAPI::Plugin::Query::Bandcamp::CustomSearchAPI;
+package MuSAPI::Plugin::Query::CustomSearch::Bandcamp;
 use Mojo::Base 'MuSAPI::Plugin::Query';
 use Mojo::Util qw/url_escape/;
 
 # Inherits from 'MuSAPI::Plugin::Query'
 
-has 'provider_name' => 'Bandcamp_CS';
+has 'provider_name' => 'CustomSearch_Bandcamp';
 
 my $bandcamp_cs_cx;
 my $google_api_key;
