@@ -41,10 +41,10 @@ sub search_all {
     $self->render_later;
 }
 
+# limit search to a specific provider
 sub search_provider {
     my ($self, $query, $provider) = @_;
 
-    # limit search to specific provider
     $self->render_later;
     my $cb = sub { return $self->_render_result(shift) };
 
@@ -57,8 +57,10 @@ sub search_provider {
     return $self->reply->exception("unsupported provider value: '$provider'");
 }
 
-# chain two queries:
-# 1. scrape google web for bandcamp page
+# Google Custom Search API is limited to 100 free queries a day. If one runs
+# out of credit, one can theoretically chain together these two queries:
+#
+# 1. scrape google web to identify bandcamp page
 # 2. scrape bandcamp page for metadata
 
 sub search_bc_web {

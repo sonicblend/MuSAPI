@@ -2,10 +2,13 @@ package MuSAPI::Plugin::Query;
 use Mojo::Base 'Mojolicious::Plugin';
 
 # Parent Query class - children must specify:
+
 has 'provider_name';
 
 sub generate_url { die 'implement generate_url()' }
 sub query_cb     { die 'implement query_cb()' }
+
+
 
 # Wrapper methods
 

@@ -31,7 +31,7 @@ sub query_cb {
 sub generate_url {
     my ($self, $c, $query) = @_;
 
-    # replace characters deezer doesn't like
+    # deezer won't return any results if emdash is used
     $query =~ s/–/-/g;
 
     return 'http://api.deezer.com/search/album'
