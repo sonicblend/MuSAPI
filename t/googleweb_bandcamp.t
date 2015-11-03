@@ -16,6 +16,8 @@ my $test_results = [
     {code => 200, body => slurp 't/responses/googleweb_single_result.txt'},
     # success, empty set
     {code => 200, body => slurp 't/responses/googleweb_no_results.txt'},
+    # success, captcha - denial of results
+    {code => 200, body => slurp 't/responses/googleweb_captcha.txt'},
     # forbidden
     {code => 403, body => slurp 't/responses/googleweb_forbidden.txt'},
 ];
@@ -38,6 +40,7 @@ $t->get_ok('/?q=Peter Broderick & Machinefabriek - Blank Grey Canvas Sky')->stat
     title   => 'Blank Grey Canvas Sky | Machinefabriek',
     link    => 'http://machinefabriek.bandcamp.com/album/blank-grey-canvas-sky',
 });
+$t->get_ok('/?q=Damon Albarn - Everyday Robots')->status_is(200)->json_is({not_found => 1});
 $t->get_ok('/?q=Damon Albarn - Everyday Robots')->status_is(200)->json_is({not_found => 1});
 $t->get_ok('/?q=asdfasdfasdfasdfasdfasdf')->status_is(500)->json_is({});
 
