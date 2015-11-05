@@ -4,10 +4,21 @@ use Mojo::Util qw/url_escape dumper/;
 
 # Inherits from 'MuSAPI::Plugin::Query'
 
-has 'provider_name' => 'Bandcamp_Scrape';
-
 # Given a URL, scrape a Bandcamp album page for the artist name and embedded
 # player id
+
+has 'provider_name' => 'Bandcamp_Scrape';
+
+sub generate_url {
+    my ($self, $c, $link) = @_;
+
+    unless ($link =~ /bandcamp.com/) {
+        $c->app->log->error("Expecting a bandcamp url, got: '$link'");
+        return '';
+    }
+
+    return $link;
+}
 
 sub query_cb {
     my ($self, $c, $query, $cb, $tx) = @_;
@@ -24,17 +35,6 @@ sub query_cb {
 
     $c->app->log->error("Bandcamp page scrape fail", dumper $tx->res);
     return $cb->({ not_found => 1 });
-}
-
-sub generate_url {
-    my ($self, $c, $link) = @_;
-
-    unless ($link =~ /bandcamp.com/) {
-        $c->app->log->error("Expecting a bandcamp url, got: '$link'");
-        return '';
-    }
-
-    return $link;
 }
 
 1;

@@ -6,6 +6,16 @@ use Mojo::Util qw/url_escape/;
 
 has 'provider_name' => 'Deezer';
 
+sub generate_url {
+    my ($self, $c, $query) = @_;
+
+    # deezer won't return any results if emdash is used
+    $query =~ s/–/-/g;
+
+    return 'http://api.deezer.com/search/album'
+           .'?q='.url_escape(lc($query));
+}
+
 sub query_cb {
     my ($self, $c, $query, $cb, $tx) = @_;
 
@@ -26,16 +36,6 @@ sub query_cb {
     }
 
     return $cb->({ not_found => 1 });
-}
-
-sub generate_url {
-    my ($self, $c, $query) = @_;
-
-    # deezer won't return any results if emdash is used
-    $query =~ s/–/-/g;
-
-    return 'http://api.deezer.com/search/album'
-           .'?q='.url_escape(lc($query));
 }
 
 1;
